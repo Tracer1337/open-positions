@@ -4,4 +4,4 @@
 
 | Company | Open Positions | Employees | Revenue |
 |---|---|---|---|{{range .}}
-| [{{.Attributes.Name}}]({{.Attributes.WebsiteUrl}}) | [{{.Attributes.OpenPositionsCount}}]({{.Attributes.OpenPositionsUrl}}) | ~{{.Attributes.EmployeesCount}} | ~{{.Attributes.Revenue}} |{{end}}
+| [{{.Attributes.Name}}]({{.Attributes.WebsiteUrl}}) | [{{.Attributes.OpenPositionsCount}} Open Positions]({{.Attributes.OpenPositionsUrl}}) | ~{{.Attributes.EmployeesCount}} | ~{{.Attributes.Revenue}} |{{end}}
