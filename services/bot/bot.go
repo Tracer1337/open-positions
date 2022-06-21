@@ -10,5 +10,8 @@ func main() {
 	if err := godotenv.Load(); err != nil {
 		log.Fatalln("Error loading .env file")
 	}
-	CloneRepo()
+
+	WithGitRepo(func(exec func(string, ...string), path string) {
+		exec("git", "commit", "--allow-empty", "-m", "\"test\"")
+	})
 }
