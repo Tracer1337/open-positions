@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"open-positions/bot/api"
 	"sync"
 
 	"github.com/robfig/cron/v3"
@@ -21,7 +22,7 @@ func schedulePurge() {
 }
 
 func runPurge() {
-	resp, err := fetchCompanies()
+	resp, err := api.FetchCompanies()
 	if err != nil {
 		panic(err)
 	}
@@ -31,7 +32,7 @@ func runPurge() {
 	wg.Add(len(resp.Data))
 
 	for _, company := range resp.Data {
-		go func(company Company) {
+		go func(company api.Company) {
 			defer func() {
 				if r := recover(); r != nil {
 					log.Println("Error checking " + company.Attributes.Name)
@@ -47,7 +48,7 @@ func runPurge() {
 	wg.Wait()
 }
 
-func checkCompany(company Company) bool {
+func checkCompany(company api.Company) bool {
 	resp, err := http.Get(company.Attributes.WebsiteUrl)
 	if err != nil || resp.StatusCode < 200 || resp.StatusCode >= 300 {
 		return false
@@ -61,12 +62,12 @@ func checkCompany(company Company) bool {
 	return true
 }
 
-func invalidateCompany(company Company) {
+func invalidateCompany(company api.Company) {
 	log.Println("Invalidate " + company.Attributes.Name)
 
 	json := "{ \"data\": { \"publishedAt\": null } }"
 
-	body, err := fetchAPI("PUT", "/companies/"+fmt.Sprint(company.Id), RequestOptions{
+	body, err := api.FetchAPI("PUT", "/companies/"+fmt.Sprint(company.Id), api.RequestOptions{
 		Headers: map[string]string{
 			"Content-Type": "application/json",
 		},

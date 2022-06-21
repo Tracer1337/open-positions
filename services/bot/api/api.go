@@ -1,4 +1,4 @@
-package main
+package api
 
 import (
 	"encoding/json"
@@ -34,7 +34,7 @@ type ResponseMeta struct {
 	} `json:"pagination"`
 }
 
-func fetchAPI(method string, path string, opts RequestOptions) ([]byte, error) {
+func FetchAPI(method string, path string, opts RequestOptions) ([]byte, error) {
 	v, err := query.Values(opts.Query)
 	if err != nil {
 		panic(err)
@@ -86,8 +86,8 @@ type CompaniesResponse struct {
 	Meta ResponseMeta `json:"meta"`
 }
 
-func fetchCompanies() (*CompaniesResponse, error) {
-	body, err := fetchAPI("GET", "/companies", RequestOptions{
+func FetchCompanies() (*CompaniesResponse, error) {
+	body, err := FetchAPI("GET", "/companies", RequestOptions{
 		Query: RequestQuery{
 			Pagination: RequestPagination{
 				PageSize: 100,

@@ -1,9 +1,13 @@
 package main
 
+//go:generate go get -d github.com/valyala/quicktemplate/qtc
+//go:generate qtc -dir=templates
+
 import (
 	"fmt"
-	"html/template"
 	"log"
+	"open-positions/bot/api"
+	"open-positions/bot/templates"
 	"os"
 	"path/filepath"
 	"sync"
@@ -40,7 +44,7 @@ func main() {
 func updateReadme() {
 	exec, path := initGitRepo()
 
-	resp, err := fetchCompanies()
+	resp, err := api.FetchCompanies()
 	if err != nil {
 		panic(err)
 	}
@@ -58,13 +62,13 @@ func updateReadme() {
 	exec("git", "push")
 }
 
-func render(resp *CompaniesResponse, path string) {
+func render(resp *api.CompaniesResponse, path string) {
 	file, err := os.Create(path)
 	if err != nil {
 		panic(fmt.Sprintf("Error creating file %s\n", path))
 	}
 	defer file.Close()
 
-	tmpl := template.Must(template.ParseFiles("template.md"))
-	tmpl.Execute(file, resp.Data)
+	content := templates.Readme(resp.Data)
+	file.WriteString(content)
 }

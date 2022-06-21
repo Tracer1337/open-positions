@@ -1,0 +1,48 @@
+{% import "open-positions/bot/api" %}
+
+{%- func Readme(companies []api.Company) -%}
+# Open Positions
+
+*Numbers may be incorrect*
+
+| Company | Open Positions | Employees | Revenue |
+|---|---|---|---|
+{%- stripspace -%}
+
+    {%- for _, company := range companies -%}
+
+        |
+        
+        {% space %}
+            [{%s company.Attributes.Name %}]
+            ({%s company.Attributes.WebsiteUrl %})
+        {% space %} |
+
+        {% space %}
+            [{%d company.Attributes.OpenPositionsCount %}{% space %}Open Positions]
+            ({%s company.Attributes.OpenPositionsUrl %})
+        {% space %} |
+
+        {% space %}
+            {% if company.Attributes.EmployeesCount > 0 %}
+                ~{%d company.Attributes.EmployeesCount %}
+            {% else %}
+                -
+            {% endif %}
+        {% space %} |
+
+        {% space %}
+            {% if company.Attributes.Revenue != "" %}
+                ~{%s company.Attributes.Revenue %}
+            {% else %}
+                -
+            {% endif %}
+        {% space %} |
+
+        {% newline %}
+
+    {%- endfor -%}
+
+{%- endstripspace -%}
+
+{%- endfunc -%}
