@@ -14,7 +14,11 @@ func main() {
 		log.Fatalln("Error loading .env file")
 	}
 
-	_, path := InitGitRepo()
+	UpdateReadme()
+}
+
+func UpdateReadme() {
+	exec, path := InitGitRepo()
 
 	resp, err := FetchCompanies()
 	if err != nil {
@@ -22,6 +26,10 @@ func main() {
 	}
 
 	render(resp, filepath.Join(path, "README.md"))
+
+	exec("git", "add", "README.md")
+	exec("git", "commit", "--allow-empty", "-m", "chore: update readme")
+	exec("git", "push")
 }
 
 func render(resp *CompanyResponse, path string) {

@@ -17,18 +17,16 @@ func InitGitRepo() (func(string, ...string), string) {
 		cmd := exec.Command(name, args...)
 		cmd.Dir = repoDir
 		if err := cmd.Run(); err != nil {
-			log.Print(err)
-			log.Fatalf("Error running command %s\n", name)
+			log.Fatalf("Error running command %s %s\n", name, args)
 		}
 	}
 	return execCommand, repoDir
 }
 
 func CloneRepo(path string) string {
-	cmd := exec.Command("git", "clone", "--depth=1", "--single-branch", CreateGitUrl())
+	cmd := exec.Command("git", "clone", "--depth=1", "--single-branch", "--branch", os.Getenv("GITHUB_BRANCH"), CreateGitUrl())
 	cmd.Dir = path
 	if err := cmd.Run(); err != nil {
-		log.Print(err)
 		log.Fatalln("Error cloning git repository")
 	}
 
@@ -48,14 +46,12 @@ func CloneRepo(path string) string {
 	cmd = exec.Command("git", "config", "user.email", os.Getenv("GITHUB_EMAIL"))
 	cmd.Dir = repoPath
 	if err := cmd.Run(); err != nil {
-		log.Print(err)
 		log.Fatalln("Error setting user.email")
 	}
 
 	cmd = exec.Command("git", "config", "user.name", os.Getenv("GITHUB_NAME"))
 	cmd.Dir = repoPath
 	if err := cmd.Run(); err != nil {
-		log.Print(err)
 		log.Fatalln("Error setting user.name")
 	}
 
