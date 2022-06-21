@@ -11,15 +11,16 @@ import (
 func WithGitRepo(callback func(func(string, ...string), string)) {
 	tmpDir := MakeTempDir()
 	repoName := CloneRepo(tmpDir)
+	repoDir := filepath.Join(tmpDir, repoName)
 	execCommand := func(name string, args ...string) {
 		cmd := exec.Command(name, args...)
-		cmd.Dir = filepath.Join(tmpDir, repoName)
+		cmd.Dir = repoDir
 		if err := cmd.Run(); err != nil {
 			log.Print(err)
 			log.Fatalf("Error running command %s\n", name)
 		}
 	}
-	callback(execCommand, tmpDir)
+	callback(execCommand, repoDir)
 }
 
 func CloneRepo(path string) string {
