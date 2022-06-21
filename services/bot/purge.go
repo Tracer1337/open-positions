@@ -63,8 +63,6 @@ func checkCompany(company api.Company) bool {
 }
 
 func invalidateCompany(company api.Company) {
-	log.Println("Invalidate " + company.Attributes.Name)
-
 	json := "{ \"data\": { \"publishedAt\": null } }"
 
 	body, err := api.FetchAPI("PUT", "/companies/"+fmt.Sprint(company.Id), api.RequestOptions{
