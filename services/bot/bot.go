@@ -14,13 +14,14 @@ func main() {
 		log.Fatalln("Error loading .env file")
 	}
 
-	WithGitRepo(func(exec func(string, ...string), path string) {
-		resp, err := FetchCompanies()
-		if err != nil {
-			log.Fatal(err)
-		}
-		render(resp, filepath.Join(path, "README.md"))
-	})
+	_, path := InitGitRepo()
+
+	resp, err := FetchCompanies()
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	render(resp, filepath.Join(path, "README.md"))
 }
 
 func render(resp *CompanyResponse, path string) {

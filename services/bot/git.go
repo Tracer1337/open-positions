@@ -3,12 +3,13 @@ package main
 import (
 	"io/ioutil"
 	"log"
+	"net/url"
 	"os"
 	"os/exec"
 	"path/filepath"
 )
 
-func WithGitRepo(callback func(func(string, ...string), string)) {
+func InitGitRepo() (func(string, ...string), string) {
 	tmpDir := MakeTempDir()
 	repoName := CloneRepo(tmpDir)
 	repoDir := filepath.Join(tmpDir, repoName)
@@ -20,11 +21,11 @@ func WithGitRepo(callback func(func(string, ...string), string)) {
 			log.Fatalf("Error running command %s\n", name)
 		}
 	}
-	callback(execCommand, repoDir)
+	return execCommand, repoDir
 }
 
 func CloneRepo(path string) string {
-	cmd := exec.Command("git", "clone", "--depth=1", "--single-branch", os.Getenv("GITHUB_REPO"))
+	cmd := exec.Command("git", "clone", "--depth=1", "--single-branch", CreateGitUrl())
 	cmd.Dir = path
 	if err := cmd.Run(); err != nil {
 		log.Print(err)
@@ -51,7 +52,7 @@ func CloneRepo(path string) string {
 		log.Fatalln("Error setting user.email")
 	}
 
-	cmd = exec.Command("git", "config", "user.name", "Open Positions Bot")
+	cmd = exec.Command("git", "config", "user.name", os.Getenv("GITHUB_NAME"))
 	cmd.Dir = repoPath
 	if err := cmd.Run(); err != nil {
 		log.Print(err)
@@ -59,6 +60,15 @@ func CloneRepo(path string) string {
 	}
 
 	return repoName
+}
+
+func CreateGitUrl() string {
+	result, err := url.Parse(os.Getenv("GITHUB_REPO"))
+	if err != nil {
+		log.Fatalln("Error parsing GITHUB_REPO url")
+	}
+	result.User = url.UserPassword(os.Getenv("GITHUB_NAME"), os.Getenv("GITHUB_TOKEN"))
+	return result.String()
 }
 
 func MakeTempDir() string {
