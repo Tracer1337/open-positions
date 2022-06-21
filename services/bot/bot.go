@@ -6,6 +6,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"sync"
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
@@ -24,8 +25,12 @@ func main() {
 
 	r := gin.Default()
 
+	var lock sync.Mutex
+
 	r.POST("/update", func(c *gin.Context) {
+		lock.Lock()
 		updateReadme()
+		lock.Unlock()
 		c.Status(200)
 	})
 
