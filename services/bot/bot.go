@@ -12,6 +12,12 @@ func main() {
 	}
 
 	WithGitRepo(func(exec func(string, ...string), path string) {
-		exec("git", "commit", "--allow-empty", "-m", "\"test\"")
+		resp, err := FetchCompanies()
+		if err != nil {
+			log.Fatal(err)
+		}
+		for _, company := range resp.Data {
+			log.Println(company.Attributes)
+		}
 	})
 }
