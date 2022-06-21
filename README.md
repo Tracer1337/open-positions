@@ -14,4 +14,4 @@ We only count positions in Engineering / IT
 
 # Contributing
 
-If you want to add a company to the list, just open an issue and I will have a look.
+If you want to add a company to the list, just open an issue, and we will have a look.
