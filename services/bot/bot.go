@@ -11,6 +11,7 @@ import (
 	"os"
 	"path/filepath"
 	"sync"
+	"text/template"
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
@@ -44,12 +45,17 @@ func main() {
 func updateReadme() {
 	exec, path := initGitRepo()
 
-	resp, err := api.FetchCompanies()
+	companiesResp, err := api.FetchCompanies()
 	if err != nil {
 		panic(err)
 	}
 
-	render(resp, filepath.Join(path, "README.md"))
+	readmeResp, err := api.FetchReadme()
+	if err != nil {
+		panic(err)
+	}
+
+	render(companiesResp.Data, readmeResp.Data, filepath.Join(path, "README.md"))
 
 	if diff := exec("git", "diff", "README.md"); len(diff) == 0 {
 		log.Println("Empty diff: Skip update")
@@ -67,13 +73,21 @@ func updateReadme() {
 	exec("git", "push")
 }
 
-func render(resp *api.CompaniesResponse, path string) {
+func render(companies []api.Company, readme api.Readme, path string) {
 	file, err := os.Create(path)
 	if err != nil {
 		panic(fmt.Sprintf("Error creating file %s\n", path))
 	}
 	defer file.Close()
 
-	content := templates.Readme(resp.Data)
-	file.WriteString(content)
+	tmpl, err := template.New("readme").Parse(readme.Attributes.Template)
+	if err != nil {
+		panic("Error parsing readme template")
+	}
+
+	table := templates.ReadmeTable(companies)
+	fmt.Print(table)
+	err = tmpl.Execute(file, map[string]string{
+		"Table": table,
+	})
 }

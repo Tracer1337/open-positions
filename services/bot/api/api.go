@@ -105,3 +105,28 @@ func FetchCompanies() (*CompaniesResponse, error) {
 
 	return &result, nil
 }
+
+type Readme struct {
+	Id         int `json:"id"`
+	Attributes struct {
+		Template string `json:"template"`
+	} `json:"attributes"`
+}
+
+type ReadmeResponse struct {
+	Data Readme `json:"data"`
+}
+
+func FetchReadme() (*ReadmeResponse, error) {
+	body, err := FetchAPI("GET", "/readme", RequestOptions{})
+	if err != nil {
+		panic(err)
+	}
+
+	var result ReadmeResponse
+	if err := json.Unmarshal(body, &result); err != nil {
+		return nil, err
+	}
+
+	return &result, nil
+}

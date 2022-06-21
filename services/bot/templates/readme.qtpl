@@ -1,15 +1,10 @@
 {% import "open-positions/bot/api" %}
 
-{%- func Readme(companies []api.Company) -%}
-# Open Positions
+{% stripspace %}
 
-*Numbers may be incorrect*
+{% func ReadmeTable(companies []api.Company) %}
 
-| Company | Open Positions | Employees | Revenue |
-|---|---|---|---|
-{%- stripspace -%}
-
-    {%- for _, company := range companies -%}
+    {% for i, company := range companies %}
 
         |
         
@@ -39,10 +34,12 @@
             {% endif %}
         {% space %} |
 
-        {% newline %}
+        {% if i < len(companies) - 1 %}
+            {% newline %}
+        {% endif %}
 
-    {%- endfor -%}
+    {% endfor %}
 
-{%- endstripspace -%}
+{% endfunc %}
 
-{%- endfunc -%}
+{% endstripspace %}

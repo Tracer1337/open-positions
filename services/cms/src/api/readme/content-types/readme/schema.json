@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "readmes",
+  "info": {
+    "singularName": "readme",
+    "pluralName": "readmes",
+    "displayName": "Readme"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "template": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
