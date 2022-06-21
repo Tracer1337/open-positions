@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 )
 
-func InitGitRepo() (func(string, ...string), string) {
-	tmpDir := MakeTempDir()
-	repoName := CloneRepo(tmpDir)
+func initGitRepo() (func(string, ...string), string) {
+	tmpDir := makeTempDir()
+	repoName := cloneRepo(tmpDir)
 	repoDir := filepath.Join(tmpDir, repoName)
 	execCommand := func(name string, args ...string) {
 		cmd := exec.Command(name, args...)
@@ -23,8 +23,8 @@ func InitGitRepo() (func(string, ...string), string) {
 	return execCommand, repoDir
 }
 
-func CloneRepo(path string) string {
-	cmd := exec.Command("git", "clone", "--depth=1", "--single-branch", "--branch", os.Getenv("GIT_BRANCH"), CreateGitUrl())
+func cloneRepo(path string) string {
+	cmd := exec.Command("git", "clone", "--depth=1", "--single-branch", "--branch", os.Getenv("GIT_BRANCH"), createGitUrl())
 	cmd.Dir = path
 	if err := cmd.Run(); err != nil {
 		panic("Error cloning git repository")
@@ -58,7 +58,7 @@ func CloneRepo(path string) string {
 	return repoName
 }
 
-func CreateGitUrl() string {
+func createGitUrl() string {
 	result, err := url.Parse(os.Getenv("GIT_REPO"))
 	if err != nil {
 		panic("Error parsing GITHUB_REPO url")
@@ -67,7 +67,7 @@ func CreateGitUrl() string {
 	return result.String()
 }
 
-func MakeTempDir() string {
+func makeTempDir() string {
 	tmpDir := filepath.Join(".", ".tmp")
 
 	if err := os.RemoveAll(tmpDir); err != nil {

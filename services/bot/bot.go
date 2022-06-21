@@ -20,6 +20,8 @@ func main() {
 		gin.SetMode(gin.ReleaseMode)
 	}
 
+	go schedulePurge()
+
 	r := gin.Default()
 
 	r.POST("/update", func(c *gin.Context) {
@@ -31,9 +33,9 @@ func main() {
 }
 
 func updateReadme() {
-	exec, path := InitGitRepo()
+	exec, path := initGitRepo()
 
-	resp, err := FetchCompanies()
+	resp, err := fetchCompanies()
 	if err != nil {
 		panic(err)
 	}

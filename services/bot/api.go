@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"io"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -11,6 +12,12 @@ import (
 )
 
 type RequestOptions struct {
+	Body    io.Reader
+	Headers map[string]string
+	Query   RequestQuery
+}
+
+type RequestQuery struct {
 	Pagination RequestPagination `url:"pagination"`
 }
 
@@ -27,8 +34,8 @@ type ResponseMeta struct {
 	} `json:"pagination"`
 }
 
-func fetchAPI(path string, opts RequestOptions) ([]byte, error) {
-	v, err := query.Values(opts)
+func fetchAPI(method string, path string, opts RequestOptions) ([]byte, error) {
+	v, err := query.Values(opts.Query)
 	if err != nil {
 		panic(err)
 	}
@@ -37,12 +44,16 @@ func fetchAPI(path string, opts RequestOptions) ([]byte, error) {
 
 	client := http.Client{}
 
-	req, err := http.NewRequest("GET", url, nil)
+	req, err := http.NewRequest(method, url, opts.Body)
 	if err != nil {
 		return []byte{}, err
 	}
 
 	req.Header.Add("Authorization", "Bearer "+os.Getenv("STRAPI_TOKEN"))
+
+	for k, v := range opts.Headers {
+		req.Header.Add(k, v)
+	}
 
 	resp, err := client.Do(req)
 	if err != nil {
@@ -58,25 +69,29 @@ func fetchAPI(path string, opts RequestOptions) ([]byte, error) {
 	return body, nil
 }
 
+type Company struct {
+	Id         int `json:"id"`
+	Attributes struct {
+		Name               string `json:"name"`
+		WebsiteUrl         string `json:"website_url"`
+		OpenPositionsCount int    `json:"open_positions_count"`
+		OpenPositionsUrl   string `json:"open_positions_url"`
+		EmployeesCount     int    `json:"employees_count"`
+		Revenue            string `json:"revenue"`
+	} `json:"attributes"`
+}
+
 type CompaniesResponse struct {
-	Data []struct {
-		Id         int `json:"id"`
-		Attributes struct {
-			Name               string `json:"name"`
-			WebsiteUrl         string `json:"website_url"`
-			OpenPositionsCount int    `json:"open_positions_count"`
-			OpenPositionsUrl   string `json:"open_positions_url"`
-			EmployeesCount     int    `json:"employees_count"`
-			Revenue            string `json:"revenue"`
-		} `json:"attributes"`
-	} `json:"data"`
+	Data []Company    `json:"data"`
 	Meta ResponseMeta `json:"meta"`
 }
 
-func FetchCompanies() (*CompaniesResponse, error) {
-	body, err := fetchAPI("/companies", RequestOptions{
-		Pagination: RequestPagination{
-			PageSize: 100,
+func fetchCompanies() (*CompaniesResponse, error) {
+	body, err := fetchAPI("GET", "/companies", RequestOptions{
+		Query: RequestQuery{
+			Pagination: RequestPagination{
+				PageSize: 100,
+			},
 		},
 	})
 	if err != nil {
