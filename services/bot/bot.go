@@ -51,8 +51,13 @@ func updateReadme() {
 
 	render(resp, filepath.Join(path, "README.md"))
 
+	if diff := exec("git", "diff", "README.md"); len(diff) == 0 {
+		log.Println("Empty diff: Skip update")
+		return
+	}
+
 	exec("git", "add", "README.md")
-	exec("git", "commit", "--allow-empty", "-m", "chore: update readme")
+	exec("git", "commit", "-m", "chore: update readme")
 
 	if _, isDryRun := os.LookupEnv("DRY_RUN"); isDryRun {
 		log.Println("Dry-Run: Skip git push")

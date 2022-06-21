@@ -9,16 +9,18 @@ import (
 	"path/filepath"
 )
 
-func initGitRepo() (func(string, ...string), string) {
+func initGitRepo() (func(string, ...string) string, string) {
 	tmpDir := makeTempDir()
 	repoName := cloneRepo(tmpDir)
 	repoDir := filepath.Join(tmpDir, repoName)
-	execCommand := func(name string, args ...string) {
+	execCommand := func(name string, args ...string) string {
 		cmd := exec.Command(name, args...)
 		cmd.Dir = repoDir
-		if err := cmd.Run(); err != nil {
+		output, err := cmd.Output()
+		if err != nil {
 			panic(fmt.Sprintf("Error running command %s %s\n", name, args))
 		}
+		return string(output)
 	}
 	return execCommand, repoDir
 }
