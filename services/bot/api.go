@@ -34,7 +34,6 @@ func fetchAPI(path string, opts RequestOptions) ([]byte, error) {
 	}
 
 	url := fmt.Sprintf("%s/api%s?%s", os.Getenv("STRAPI_URL"), path, v.Encode())
-	fmt.Println(path, opts, v.Encode(), url)
 
 	client := http.Client{}
 
