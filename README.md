@@ -9,3 +9,5 @@
 | [Reddit](https://www.reddit.com/) | [359 Open Positions](https://www.redditinc.com/careers) | ~700 | ~$170M |
 
 # Contributing
+
+If you want to add a company to the list, just open an issue and I will have a look.
