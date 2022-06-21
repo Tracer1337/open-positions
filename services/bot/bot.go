@@ -44,6 +44,12 @@ func updateReadme() {
 
 	exec("git", "add", "README.md")
 	exec("git", "commit", "--allow-empty", "-m", "chore: update readme")
+
+	if _, isDryRun := os.LookupEnv("DRY_RUN"); isDryRun {
+		log.Println("Dry-Run: Skip git push")
+		return
+	}
+
 	exec("git", "push")
 }
 
