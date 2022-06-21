@@ -1,5 +1,7 @@
 # Open Positions
 
+We only count positions in Engineering / IT
+
 *Numbers may be incorrect*
 
 | Company | Open Positions | Employees | Revenue |
