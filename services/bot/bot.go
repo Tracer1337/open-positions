@@ -1,11 +1,13 @@
 package main
 
 import (
+	"fmt"
 	"html/template"
 	"log"
 	"os"
 	"path/filepath"
 
+	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )
 
@@ -14,15 +16,26 @@ func main() {
 		log.Fatalln("Error loading .env file")
 	}
 
-	UpdateReadme()
+	if os.Getenv("ENV") == "production" {
+		gin.SetMode(gin.ReleaseMode)
+	}
+
+	r := gin.Default()
+
+	r.POST("/update", func(c *gin.Context) {
+		updateReadme()
+		c.Status(200)
+	})
+
+	r.Run("localhost:8000")
 }
 
-func UpdateReadme() {
+func updateReadme() {
 	exec, path := InitGitRepo()
 
 	resp, err := FetchCompanies()
 	if err != nil {
-		log.Fatal(err)
+		panic(err)
 	}
 
 	render(resp, filepath.Join(path, "README.md"))
@@ -35,7 +48,7 @@ func UpdateReadme() {
 func render(resp *CompanyResponse, path string) {
 	file, err := os.Create(path)
 	if err != nil {
-		log.Fatalf("Error creating file %s\n", path)
+		panic(fmt.Sprintf("Error creating file %s\n", path))
 	}
 	defer file.Close()
 
