@@ -27,7 +27,7 @@ func main() {
 		c.Status(200)
 	})
 
-	r.Run("localhost:8000")
+	r.Run(fmt.Sprintf("%s:%s", os.Getenv("HOST"), os.Getenv("PORT")))
 }
 
 func updateReadme() {
@@ -45,7 +45,7 @@ func updateReadme() {
 	exec("git", "push")
 }
 
-func render(resp *CompanyResponse, path string) {
+func render(resp *CompaniesResponse, path string) {
 	file, err := os.Create(path)
 	if err != nil {
 		panic(fmt.Sprintf("Error creating file %s\n", path))

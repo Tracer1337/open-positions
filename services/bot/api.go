@@ -2,12 +2,64 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"os"
+
+	"github.com/google/go-querystring/query"
 )
 
-type CompanyResponse struct {
+type RequestOptions struct {
+	Pagination RequestPagination `url:"pagination"`
+}
+
+type RequestPagination struct {
+	PageSize int `url:"pageSize"`
+}
+
+type ResponseMeta struct {
+	Pagination struct {
+		Page      int `json:"page"`
+		PageSize  int `json:"pageSize"`
+		PageCount int `json:"pageCount"`
+		Total     int `json:"to"`
+	} `json:"pagination"`
+}
+
+func fetchAPI(path string, opts RequestOptions) ([]byte, error) {
+	v, err := query.Values(opts)
+	if err != nil {
+		panic(err)
+	}
+
+	url := fmt.Sprintf("%s/api%s?%s", os.Getenv("STRAPI_URL"), path, v.Encode())
+	fmt.Println(path, opts, v.Encode(), url)
+
+	client := http.Client{}
+
+	req, err := http.NewRequest("GET", url, nil)
+	if err != nil {
+		return []byte{}, err
+	}
+
+	req.Header.Add("Authorization", "Bearer "+os.Getenv("STRAPI_TOKEN"))
+
+	resp, err := client.Do(req)
+	if err != nil {
+		return []byte{}, err
+	}
+	defer resp.Body.Close()
+
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return []byte{}, err
+	}
+
+	return body, nil
+}
+
+type CompaniesResponse struct {
 	Data []struct {
 		Id         int `json:"id"`
 		Attributes struct {
@@ -19,39 +71,20 @@ type CompanyResponse struct {
 			Revenue            string `json:"revenue"`
 		} `json:"attributes"`
 	} `json:"data"`
-	Meta struct {
-		Pagination struct {
-			Page      int `json:"page"`
-			PageSize  int `json:"pageSize"`
-			PageCount int `json:"pageCount"`
-			Total     int `json:"total"`
-		} `json:"pagination"`
-	} `json:"meta"`
+	Meta ResponseMeta `json:"meta"`
 }
 
-func FetchCompanies() (*CompanyResponse, error) {
-	url := os.Getenv("STRAPI_URL") + "/api/companies?pagination[pageSize]=100"
-	client := http.Client{}
-
-	req, err := http.NewRequest("GET", url, nil)
+func FetchCompanies() (*CompaniesResponse, error) {
+	body, err := fetchAPI("/companies", RequestOptions{
+		Pagination: RequestPagination{
+			PageSize: 100,
+		},
+	})
 	if err != nil {
-		return nil, err
+		panic(err)
 	}
 
-	req.Header.Add("Authorization", "Bearer "+os.Getenv("STRAPI_TOKEN"))
-
-	resp, err := client.Do(req)
-	if err != nil {
-		return nil, err
-	}
-	defer resp.Body.Close()
-
-	body, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return nil, err
-	}
-
-	var result CompanyResponse
+	var result CompaniesResponse
 	if err := json.Unmarshal(body, &result); err != nil {
 		return nil, err
 	}
