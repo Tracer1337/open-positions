@@ -24,7 +24,7 @@ func InitGitRepo() (func(string, ...string), string) {
 }
 
 func CloneRepo(path string) string {
-	cmd := exec.Command("git", "clone", "--depth=1", "--single-branch", "--branch", os.Getenv("GITHUB_BRANCH"), CreateGitUrl())
+	cmd := exec.Command("git", "clone", "--depth=1", "--single-branch", "--branch", os.Getenv("GIT_BRANCH"), CreateGitUrl())
 	cmd.Dir = path
 	if err := cmd.Run(); err != nil {
 		log.Fatalln("Error cloning git repository")
@@ -43,13 +43,13 @@ func CloneRepo(path string) string {
 	repoName := file.Name()
 	repoPath := filepath.Join(path, repoName)
 
-	cmd = exec.Command("git", "config", "user.email", os.Getenv("GITHUB_EMAIL"))
+	cmd = exec.Command("git", "config", "user.email", os.Getenv("GIT_EMAIL"))
 	cmd.Dir = repoPath
 	if err := cmd.Run(); err != nil {
 		log.Fatalln("Error setting user.email")
 	}
 
-	cmd = exec.Command("git", "config", "user.name", os.Getenv("GITHUB_NAME"))
+	cmd = exec.Command("git", "config", "user.name", os.Getenv("GIT_NAME"))
 	cmd.Dir = repoPath
 	if err := cmd.Run(); err != nil {
 		log.Fatalln("Error setting user.name")
@@ -59,11 +59,11 @@ func CloneRepo(path string) string {
 }
 
 func CreateGitUrl() string {
-	result, err := url.Parse(os.Getenv("GITHUB_REPO"))
+	result, err := url.Parse(os.Getenv("GIT_REPO"))
 	if err != nil {
 		log.Fatalln("Error parsing GITHUB_REPO url")
 	}
-	result.User = url.UserPassword(os.Getenv("GITHUB_NAME"), os.Getenv("GITHUB_TOKEN"))
+	result.User = url.UserPassword(os.Getenv("GIT_NAME"), os.Getenv("GIT_PASSWORD"))
 	return result.String()
 }
 
