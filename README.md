@@ -14,6 +14,7 @@ We only count positions in Engineering / IT
 | [Strapi](https://strapi.io/) | [5 Open Positions](https://jobs.lever.co/strapi?team=Engineering%20%F0%9F%A7%99%E2%80%8D%E2%99%80%EF%B8%8F) | ~40 | ~$2M |
 | [Vercel](https://vercel.com/home) | [10 Open Positions](https://vercel.com/careers?department=Engineering) | ~300 | ~$25M |
 | [Meilisearch](https://www.meilisearch.com/) | [2 Open Positions](https://jobs.lever.co/meili) | ~25 | ~$2.5M |
+| [Kong](https://konghq.com/kong) | [41 Open Positions](https://jobs.lever.co/kong?department=Engineering) | ~400 | ~$75M |
 
 # Contributing
 
