@@ -19,6 +19,7 @@ We only count positions in Engineering / IT
 | [Stripe](https://stripe.com/) | [140 Open Positions](https://stripe.com/jobs/search) | ~6800 | ~$1.3B |
 | [Ghost](https://ghost.org/) | [2 Open Positions](https://careers.ghost.org/) | ~31 | ~$5M |
 | [MongoDB](https://www.mongodb.com/careers/departments/engineering) | [50 Open Positions](https://www.mongodb.com/careers/departments/engineering) | ~3500 | ~$800M |
+| [Supabase](https://supabase.com/) | [5 Open Positions](https://boards.greenhouse.io/supabase) | ~100 | ~$5M |
 
 # Contributing
 
