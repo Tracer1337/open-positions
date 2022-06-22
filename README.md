@@ -18,6 +18,7 @@ We only count positions in Engineering / IT
 | [Algolia](https://www.algolia.com/) | [103 Open Positions](https://www.algolia.com/careers/?query=&amp;page=1&amp;configure%5BclickAnalytics%5D=true&amp;configure%5BhitsPerPage%5D=15&amp;hierarchicalMenu%5Bcategories.lvl0%5D=R%26D) | ~600 | ~$110M |
 | [Stripe](https://stripe.com/) | [140 Open Positions](https://stripe.com/jobs/search) | ~6800 | ~$1.3B |
 | [Ghost](https://ghost.org/) | [2 Open Positions](https://careers.ghost.org/) | ~31 | ~$5M |
+| [MongoDB](https://www.mongodb.com/careers/departments/engineering) | [50 Open Positions](https://www.mongodb.com/careers/departments/engineering) | ~3500 | ~$800M |
 
 # Contributing
 
