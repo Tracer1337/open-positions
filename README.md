@@ -25,6 +25,6 @@ We only count positions in Engineering / IT that are located in US / Europe.
 
 If you want to add a company to the list, just open an issue and we will have a look.
 
-Please don't open a PR, we use a CMS to generate the readme
-because
+Please don't open a PR, we use a bot to generate the readme  
+because  
 why not
