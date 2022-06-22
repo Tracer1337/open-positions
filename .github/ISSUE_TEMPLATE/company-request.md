@@ -9,5 +9,5 @@ assignees: ''
 
 # Company Request
 
-* Company Name: <Enter Name>
-* Link to open positions: <Enter URL>
+* Company Name:
+* Link to open positions:
