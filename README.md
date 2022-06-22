@@ -15,6 +15,7 @@ We only count positions in Engineering / IT
 | [Vercel](https://vercel.com/home) | [10 Open Positions](https://vercel.com/careers?department=Engineering) | ~300 | ~$25M |
 | [Meilisearch](https://www.meilisearch.com/) | [2 Open Positions](https://jobs.lever.co/meili) | ~25 | ~$2.5M |
 | [Kong](https://konghq.com/kong) | [41 Open Positions](https://jobs.lever.co/kong?department=Engineering) | ~400 | ~$75M |
+| [Algolia](https://www.algolia.com/) | [103 Open Positions](https://www.algolia.com/careers/?query=&amp;page=1&amp;configure%5BclickAnalytics%5D=true&amp;configure%5BhitsPerPage%5D=15&amp;hierarchicalMenu%5Bcategories.lvl0%5D=R%26D) | ~600 | ~$110M |
 
 # Contributing
 
