@@ -1,8 +1,6 @@
 # Open Positions
 
-We only count positions in Engineering / IT
-
-*Numbers may be incorrect*
+We only count positions in Engineering / IT that are located in US / Europe.
 
 | Company | Open Positions | Employees | Revenue |
 |---|---|---|---|
@@ -20,6 +18,8 @@ We only count positions in Engineering / IT
 | [Ghost](https://ghost.org/) | [2 Open Positions](https://careers.ghost.org/) | ~31 | ~$5M |
 | [MongoDB](https://www.mongodb.com/careers/departments/engineering) | [50 Open Positions](https://www.mongodb.com/careers/departments/engineering) | ~3500 | ~$800M |
 | [Supabase](https://supabase.com/) | [5 Open Positions](https://boards.greenhouse.io/supabase) | ~100 | ~$5M |
+
+*Numbers may be incorrect*
 
 # Contributing
 
