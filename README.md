@@ -12,6 +12,7 @@ We only count positions in Engineering / IT
 | [Material UI](https://mui.com/) | [5 Open Positions](https://mui.com/careers) | ~40 | - |
 | [Circle CI](https://circleci.com/) | [4 Open Positions](https://circleci.com/careers/jobs/) | ~700 | ~$50M |
 | [Strapi](https://strapi.io/) | [5 Open Positions](https://jobs.lever.co/strapi?team=Engineering%20%F0%9F%A7%99%E2%80%8D%E2%99%80%EF%B8%8F) | ~40 | ~$2M |
+| [Vercel](https://vercel.com/home) | [10 Open Positions](https://vercel.com/careers?department=Engineering) | ~300 | ~$25M |
 
 # Contributing
 
