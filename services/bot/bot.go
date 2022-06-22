@@ -86,7 +86,6 @@ func render(companies []api.Company, readme api.Readme, path string) {
 	}
 
 	table := templates.ReadmeTable(companies)
-	fmt.Print(table)
 	err = tmpl.Execute(file, map[string]string{
 		"Table": table,
 	})
