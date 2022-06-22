@@ -75,6 +75,4 @@ func invalidateCompany(company api.Company) {
 	if err != nil {
 		panic(err)
 	}
-
-	fmt.Print(string(body))
 }
