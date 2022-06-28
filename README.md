@@ -18,6 +18,7 @@ We only count positions in Engineering / IT that are located in US / Europe.
 | [Ghost](https://ghost.org/) | [2 Open Positions](https://careers.ghost.org/) | ~31 | ~$5M |
 | [MongoDB](https://www.mongodb.com/careers/departments/engineering) | [50 Open Positions](https://www.mongodb.com/careers/departments/engineering) | ~3500 | ~$800M |
 | [Supabase](https://supabase.com/) | [5 Open Positions](https://boards.greenhouse.io/supabase) | ~100 | ~$5M |
+| [Docker](https://www.docker.com/) | [3 Open Positions](https://www.docker.com/products/docker-hub/) | ~400 | ~$50M |
 
 *Numbers may be incorrect*
 
