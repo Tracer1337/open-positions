@@ -19,6 +19,7 @@ We only count positions in Engineering / IT that are located in US / Europe.
 | [MongoDB](https://www.mongodb.com/careers/departments/engineering) | [50 Open Positions](https://www.mongodb.com/careers/departments/engineering) | ~3500 | ~$800M |
 | [Supabase](https://supabase.com/) | [5 Open Positions](https://boards.greenhouse.io/supabase) | ~100 | ~$5M |
 | [Docker](https://www.docker.com/) | [3 Open Positions](https://www.docker.com/products/docker-hub/) | ~400 | ~$50M |
+| [GitLab](https://about.gitlab.com/) | [88 Open Positions](https://about.gitlab.com/jobs/all-jobs/#Engineering) | ~1700 | ~$220M |
 
 *Numbers may be incorrect*
 
