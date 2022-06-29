@@ -65,7 +65,7 @@ func checkCompany(company api.Company) bool {
 func invalidateCompany(company api.Company) {
 	json := "{ \"data\": { \"publishedAt\": null } }"
 
-	body, err := api.FetchAPI("PUT", "/companies/"+fmt.Sprint(company.Id), api.RequestOptions{
+	_, err := api.FetchAPI("PUT", "/companies/"+fmt.Sprint(company.Id), api.RequestOptions{
 		Headers: map[string]string{
 			"Content-Type": "application/json",
 		},

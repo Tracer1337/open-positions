@@ -26,14 +26,6 @@
             {% endif %}
         {% space %} |
 
-        {% space %}
-            {% if company.Attributes.Revenue != "" %}
-                ~{%s company.Attributes.Revenue %}
-            {% else %}
-                -
-            {% endif %}
-        {% space %} |
-
         {% if i < len(companies) - 1 %}
             {% newline %}
         {% endif %}

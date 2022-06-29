@@ -78,7 +78,6 @@ type Company struct {
 		OpenPositionsCount int    `json:"open_positions_count"`
 		OpenPositionsUrl   string `json:"open_positions_url"`
 		EmployeesCount     int    `json:"employees_count"`
-		Revenue            string `json:"revenue"`
 	} `json:"attributes"`
 }
 

@@ -31,9 +31,6 @@
     "employees_count": {
       "type": "integer",
       "required": false
-    },
-    "revenue": {
-      "type": "string"
     }
   }
 }
