@@ -19,6 +19,7 @@ type RequestOptions struct {
 
 type RequestQuery struct {
 	Pagination RequestPagination `url:"pagination"`
+	Sort       []string          `url:"sort"`
 }
 
 type RequestPagination struct {
@@ -92,6 +93,7 @@ func FetchCompanies() (*CompaniesResponse, error) {
 			Pagination: RequestPagination{
 				PageSize: 100,
 			},
+			Sort: []string{"employees_count:desc"},
 		},
 	})
 	if err != nil {
