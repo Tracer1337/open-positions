@@ -4,7 +4,7 @@ We only count positions in Engineering / IT that are located in US / Europe.
 
 | Logo | Company | Open Positions | Employees |
 |:---:|---|---|---|
-|  | [Stripe](https://stripe.com/) | [140 Open Positions](https://stripe.com/jobs/search) | ~6800 |
+| <img src="https://play-lh.googleusercontent.com/2PS6w7uBztfuMys5fgodNkTwTOE6bLVB2cJYbu5GHlARAK36FzO5bUfMDP9cEJk__cE" alt="Stripe" width="32px"/> | [Stripe](https://stripe.com/) | [140 Open Positions](https://stripe.com/jobs/search) | ~6800 |
 |  | [MongoDB](https://www.mongodb.com/careers/departments/engineering) | [50 Open Positions](https://www.mongodb.com/careers/departments/engineering) | ~3500 |
 |  | [GitHub](https://github.com/) | [65 Open Positions](https://github.com/about/careers) | ~2500 |
 |  | [GitLab](https://about.gitlab.com/) | [88 Open Positions](https://about.gitlab.com/jobs/all-jobs/#Engineering) | ~1700 |
