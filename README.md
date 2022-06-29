@@ -2,8 +2,8 @@
 
 We only count positions in Engineering / IT that are located in US / Europe.
 
-| Company | Open Positions | Employees | Revenue |
-|---|---|---|---|
+| Logo | Company | Open Positions | Employees |
+|:---:|---|---|---|
 |  | [Stripe](https://stripe.com/) | [140 Open Positions](https://stripe.com/jobs/search) | ~6800 |
 |  | [MongoDB](https://www.mongodb.com/careers/departments/engineering) | [50 Open Positions](https://www.mongodb.com/careers/departments/engineering) | ~3500 |
 |  | [GitHub](https://github.com/) | [65 Open Positions](https://github.com/about/careers) | ~2500 |
