@@ -31,6 +31,9 @@
     "employees_count": {
       "type": "integer",
       "required": false
+    },
+    "image_url": {
+      "type": "string"
     }
   }
 }

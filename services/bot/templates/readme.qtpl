@@ -9,6 +9,16 @@
         |
         
         {% space %}
+            {% if company.Attributes.ImageUrl != "" %}
+                <img
+                    {% space %} src="{%s company.Attributes.ImageUrl %}"
+                    {% space %} alt="{%s company.Attributes.Name %}"
+                    {% space %} width="32px"
+                />
+            {% endif %}
+        {% space %} |
+
+        {% space %}
             [{%s company.Attributes.Name %}]
             ({%s company.Attributes.WebsiteUrl %})
         {% space %} |
