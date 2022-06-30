@@ -52,22 +52,23 @@ func checkCompany(company api.Company) bool {
 	isValid := true
 
 	var wg sync.WaitGroup
+	var m sync.Mutex
 
 	wg.Add(2)
 
 	go func() {
-		resp, err := http.Get(company.Attributes.WebsiteUrl)
-		if err != nil || resp.StatusCode < 200 || resp.StatusCode >= 300 {
-			isValid = false
-		}
+		result := checkUrlWithRetries(company.Attributes.WebsiteUrl, 3)
+		m.Lock()
+		isValid = result
+		m.Unlock()
 		wg.Done()
 	}()
 
 	go func() {
-		resp, err := http.Get(company.Attributes.OpenPositionsUrl)
-		if err != nil || resp.StatusCode < 200 || resp.StatusCode >= 300 {
-			isValid = false
-		}
+		result := checkUrlWithRetries(company.Attributes.OpenPositionsUrl, 3)
+		m.Lock()
+		isValid = result
+		m.Unlock()
 		wg.Done()
 	}()
 
@@ -89,4 +90,13 @@ func invalidateCompany(company api.Company) {
 	if err != nil {
 		panic(err)
 	}
+}
+
+func checkUrlWithRetries(url string, retries int) bool {
+	resp, err := http.Get(url)
+	success := err == nil && resp.StatusCode >= 200 && resp.StatusCode < 300
+	if !success && retries > 0 {
+		return checkUrlWithRetries(url, retries-1)
+	}
+	return success
 }
