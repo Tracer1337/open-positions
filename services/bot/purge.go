@@ -49,17 +49,31 @@ func runPurge() {
 }
 
 func checkCompany(company api.Company) bool {
-	resp, err := http.Get(company.Attributes.WebsiteUrl)
-	if err != nil || resp.StatusCode < 200 || resp.StatusCode >= 300 {
-		return false
-	}
+	isValid := true
 
-	resp, err = http.Get(company.Attributes.OpenPositionsUrl)
-	if err != nil || resp.StatusCode < 200 || resp.StatusCode >= 300 {
-		return false
-	}
+	var wg sync.WaitGroup
 
-	return true
+	wg.Add(2)
+
+	go func() {
+		resp, err := http.Get(company.Attributes.WebsiteUrl)
+		if err != nil || resp.StatusCode < 200 || resp.StatusCode >= 300 {
+			isValid = false
+		}
+		wg.Done()
+	}()
+
+	go func() {
+		resp, err := http.Get(company.Attributes.OpenPositionsUrl)
+		if err != nil || resp.StatusCode < 200 || resp.StatusCode >= 300 {
+			isValid = false
+		}
+		wg.Done()
+	}()
+
+	wg.Wait()
+
+	return isValid
 }
 
 func invalidateCompany(company api.Company) {
