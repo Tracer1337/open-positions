@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"fmt"
 	"log"
-	"net/http"
 	"open-positions/bot/api"
 	"sync"
 
@@ -57,7 +56,11 @@ func checkCompany(company api.Company) bool {
 	wg.Add(2)
 
 	go func() {
-		result := checkUrlWithRetries(company.Attributes.WebsiteUrl, 3)
+		resp, err := getWithRetries(company.Attributes.WebsiteUrl, 3)
+		result := isSuccess(resp, err)
+		if err == nil {
+			defer resp.Body.Close()
+		}
 		m.Lock()
 		isValid = result
 		m.Unlock()
@@ -65,7 +68,11 @@ func checkCompany(company api.Company) bool {
 	}()
 
 	go func() {
-		result := checkUrlWithRetries(company.Attributes.OpenPositionsUrl, 3)
+		resp, err := getWithRetries(company.Attributes.OpenPositionsUrl, 3)
+		result := isSuccess(resp, err)
+		if err == nil {
+			defer resp.Body.Close()
+		}
 		m.Lock()
 		isValid = result
 		m.Unlock()
@@ -90,13 +97,4 @@ func invalidateCompany(company api.Company) {
 	if err != nil {
 		panic(err)
 	}
-}
-
-func checkUrlWithRetries(url string, retries int) bool {
-	resp, err := http.Get(url)
-	success := err == nil && resp.StatusCode >= 200 && resp.StatusCode < 300
-	if !success && retries > 0 {
-		return checkUrlWithRetries(url, retries-1)
-	}
-	return success
 }
