@@ -11,7 +11,22 @@ import (
 	"github.com/PuerkitoBio/goquery"
 	"github.com/chromedp/cdproto/dom"
 	"github.com/chromedp/chromedp"
+	"github.com/robfig/cron/v3"
 )
+
+func scheduleScrape() {
+	c := cron.New()
+
+	c.AddFunc("@daily", func() {
+		log.Println("Scrape Start")
+		runScrape()
+		log.Println("Scrape Done")
+	})
+
+	c.Start()
+
+	select {}
+}
 
 func runScrape() {
 	companies, err := api.FetchCompanies()

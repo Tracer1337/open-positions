@@ -13,7 +13,11 @@ import (
 func schedulePurge() {
 	c := cron.New()
 
-	c.AddFunc("@daily", runPurge)
+	c.AddFunc("@daily", func() {
+		log.Println("Purge Start")
+		runPurge()
+		log.Println("Purge Done")
+	})
 
 	c.Start()
 

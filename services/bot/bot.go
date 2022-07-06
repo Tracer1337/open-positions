@@ -26,6 +26,8 @@ func main() {
 		gin.SetMode(gin.ReleaseMode)
 	}
 
+	go scheduleScrape()
+
 	go schedulePurge()
 
 	r := gin.Default()
