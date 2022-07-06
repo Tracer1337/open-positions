@@ -91,4 +91,7 @@ func render(companies []api.Company, readme api.Readme, path string) {
 	err = tmpl.Execute(file, map[string]string{
 		"Table": table,
 	})
+	if err != nil {
+		panic("Error rendering table")
+	}
 }
