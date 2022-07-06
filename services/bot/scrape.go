@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"open-positions/bot/api"
+	"os"
 	"sync"
 
 	"github.com/PuerkitoBio/goquery"
@@ -93,7 +94,7 @@ func scrapeOpenPositionsChrome(company api.Company) int {
 		return company.Attributes.OpenPositionsCount
 	}
 
-	allocCtx, cancel := chromedp.NewRemoteAllocator(context.Background(), "ws://localhost:3000")
+	allocCtx, cancel := chromedp.NewRemoteAllocator(context.Background(), os.Getenv("CHROME_URL"))
 	defer cancel()
 
 	ctx, cancel := chromedp.NewContext(allocCtx)
