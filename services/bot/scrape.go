@@ -4,9 +4,11 @@ import (
 	"bytes"
 	"context"
 	"fmt"
+	"log"
 	"open-positions/bot/api"
 	"sync"
 
+	"github.com/PuerkitoBio/goquery"
 	"github.com/chromedp/cdproto/dom"
 	"github.com/chromedp/chromedp"
 )
@@ -23,8 +25,21 @@ func runScrape() {
 
 	for _, company := range companies.Data {
 		go func(company api.Company) {
-			count := scrapeOpenPositions(company)
+			defer func() {
+				if r := recover(); r != nil {
+					log.Println("Error scraping", company.Attributes.Name, r)
+				}
+			}()
+
+			defer wg.Done()
+
+			count := scrapeOpenPositionsHtml(company)
+			if count == 0 {
+				count = scrapeOpenPositionsChrome(company)
+			}
+
 			if count != company.Attributes.OpenPositionsCount {
+				log.Println("Update positions count", company.Attributes.Name, count)
 				body := fmt.Sprintf("{ \"data\": { \"open_positions_count\": %d } }", count)
 				api.FetchAPI("PUT", "/companies/"+fmt.Sprint(company.Id), api.RequestOptions{
 					Headers: map[string]string{
@@ -33,14 +48,36 @@ func runScrape() {
 					Body: bytes.NewBuffer([]byte(body)),
 				})
 			}
-			wg.Done()
 		}(company)
 	}
 
 	wg.Wait()
 }
 
-func scrapeOpenPositions(company api.Company) int {
+func scrapeOpenPositionsHtml(company api.Company) int {
+	if company.Attributes.OpenPositionsSelector == "" {
+		return company.Attributes.OpenPositionsCount
+	}
+
+	resp, err := getWithRetries(company.Attributes.OpenPositionsUrl, 3)
+	if err != nil {
+		panic(err)
+	}
+	defer resp.Body.Close()
+
+	if !isSuccess(resp, err) {
+		return 0
+	}
+
+	doc, err := goquery.NewDocumentFromReader(resp.Body)
+	if err != nil {
+		panic(err)
+	}
+
+	return doc.Find(company.Attributes.OpenPositionsSelector).Length()
+}
+
+func scrapeOpenPositionsChrome(company api.Company) int {
 	if company.Attributes.OpenPositionsSelector == "" {
 		return company.Attributes.OpenPositionsCount
 	}
