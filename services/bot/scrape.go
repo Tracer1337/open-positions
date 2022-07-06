@@ -11,40 +11,30 @@ import (
 	"github.com/chromedp/chromedp"
 )
 
-const WORKERS = 5
-
 func runScrape() {
 	companies, err := api.FetchCompanies()
 	if err != nil {
 		panic(err)
 	}
 
-	jobs := make(chan api.Company, len(companies.Data))
-	for _, company := range companies.Data {
-		jobs <- company
-	}
-	close(jobs)
-
 	var wg sync.WaitGroup
 
 	wg.Add(len(companies.Data))
 
-	for i := 0; i < WORKERS; i++ {
-		go func() {
-			for company := range jobs {
-				count := scrapeOpenPositions(company)
-				if count != company.Attributes.OpenPositionsCount {
-					body := fmt.Sprintf("{ \"data\": { \"open_positions_count\": %d } }", count)
-					api.FetchAPI("PUT", "/companies/"+fmt.Sprint(company.Id), api.RequestOptions{
-						Headers: map[string]string{
-							"Content-Type": "application/json",
-						},
-						Body: bytes.NewBuffer([]byte(body)),
-					})
-				}
-				wg.Done()
+	for _, company := range companies.Data {
+		go func(company api.Company) {
+			count := scrapeOpenPositions(company)
+			if count != company.Attributes.OpenPositionsCount {
+				body := fmt.Sprintf("{ \"data\": { \"open_positions_count\": %d } }", count)
+				api.FetchAPI("PUT", "/companies/"+fmt.Sprint(company.Id), api.RequestOptions{
+					Headers: map[string]string{
+						"Content-Type": "application/json",
+					},
+					Body: bytes.NewBuffer([]byte(body)),
+				})
 			}
-		}()
+			wg.Done()
+		}(company)
 	}
 
 	wg.Wait()
