@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bytes"
 	"context"
 	"fmt"
 	"log"
@@ -57,10 +56,7 @@ func runScrape() {
 				log.Println("Update positions count", company.Attributes.Name, count)
 				body := fmt.Sprintf("{ \"data\": { \"open_positions_count\": %d } }", count)
 				api.FetchAPI("PUT", "/companies/"+fmt.Sprint(company.Id), api.RequestOptions{
-					Headers: map[string]string{
-						"Content-Type": "application/json",
-					},
-					Body: bytes.NewBuffer([]byte(body)),
+					Body: body,
 				})
 			}
 		}(company)

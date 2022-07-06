@@ -1,9 +1,9 @@
 package api
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
-	"io"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -12,7 +12,7 @@ import (
 )
 
 type RequestOptions struct {
-	Body    io.Reader
+	Body    string
 	Headers map[string]string
 	Query   RequestQuery
 }
@@ -45,12 +45,16 @@ func FetchAPI(method string, path string, opts RequestOptions) ([]byte, error) {
 
 	client := http.Client{}
 
-	req, err := http.NewRequest(method, url, opts.Body)
+	req, err := http.NewRequest(method, url, bytes.NewReader([]byte(opts.Body)))
 	if err != nil {
 		return []byte{}, err
 	}
 
 	req.Header.Add("Authorization", "Bearer "+os.Getenv("STRAPI_TOKEN"))
+
+	if method != "GET" {
+		req.Header.Add("Content-Type", "application/json")
+	}
 
 	for k, v := range opts.Headers {
 		req.Header.Add(k, v)

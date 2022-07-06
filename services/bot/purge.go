@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bytes"
 	"fmt"
 	"log"
 	"open-positions/bot/api"
@@ -89,15 +88,9 @@ func checkCompany(company api.Company) bool {
 }
 
 func invalidateCompany(company api.Company) {
-	json := "{ \"data\": { \"publishedAt\": null } }"
-
 	_, err := api.FetchAPI("PUT", "/companies/"+fmt.Sprint(company.Id), api.RequestOptions{
-		Headers: map[string]string{
-			"Content-Type": "application/json",
-		},
-		Body: bytes.NewBuffer([]byte(json)),
+		Body: "{ \"data\": { \"publishedAt\": null } }",
 	})
-
 	if err != nil {
 		panic(err)
 	}
