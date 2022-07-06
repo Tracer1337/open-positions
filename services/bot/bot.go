@@ -19,7 +19,7 @@ import (
 
 func main() {
 	if err := godotenv.Load(); err != nil {
-		log.Fatalln("Error loading .env file")
+		log.Println("No env file detected")
 	}
 
 	if os.Getenv("ENV") == "production" {
