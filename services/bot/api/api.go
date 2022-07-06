@@ -73,12 +73,13 @@ func FetchAPI(method string, path string, opts RequestOptions) ([]byte, error) {
 type Company struct {
 	Id         int `json:"id"`
 	Attributes struct {
-		Name               string `json:"name"`
-		WebsiteUrl         string `json:"website_url"`
-		OpenPositionsCount int    `json:"open_positions_count"`
-		OpenPositionsUrl   string `json:"open_positions_url"`
-		EmployeesCount     int    `json:"employees_count"`
-		ImageUrl           string `json:"image_url"`
+		Name                  string `json:"name"`
+		WebsiteUrl            string `json:"website_url"`
+		OpenPositionsCount    int    `json:"open_positions_count"`
+		OpenPositionsUrl      string `json:"open_positions_url"`
+		OpenPositionsSelector string `json:"open_positions_selector"`
+		EmployeesCount        int    `json:"employees_count"`
+		ImageUrl              string `json:"image_url"`
 	} `json:"attributes"`
 }
 
