@@ -9,7 +9,7 @@ We only count positions in Engineering / IT that are located in US / Europe.
 | <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="32px"/> | [GitHub](https://github.com/) | [44 Open Positions](https://github.com/about/careers) | ~2500 |
 | <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/gitlab_original_logo_icon_146503.png" alt="GitLab" width="32px"/> | [GitLab](https://about.gitlab.com/) | [88 Open Positions](https://about.gitlab.com/jobs/all-jobs/#Engineering) | ~1700 |
 | <img src="https://kfwiki.arcadewelten.eu/images/d/d9/Discord_icon_130958.png" alt="Discord" width="32px"/> | [Discord](https://discord.com/) | [20 Open Positions](https://discord.com/jobs?team=engineering) | ~1200 |
-| <img src="https://www.iconpacks.net/icons/2/free-reddit-logo-icon-2436-thumb.png" alt="Reddit" width="32px"/> | [Reddit](https://www.reddit.com/) | [359 Open Positions](https://www.redditinc.com/careers) | ~700 |
+| <img src="https://www.iconpacks.net/icons/2/free-reddit-logo-icon-2436-thumb.png" alt="Reddit" width="32px"/> | [Reddit](https://www.reddit.com/) | [323 Open Positions](https://www.redditinc.com/careers) | ~700 |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Circleci-icon-logo.svg/1200px-Circleci-icon-logo.svg.png" alt="Circle CI" width="32px"/> | [Circle CI](https://circleci.com/) | [2 Open Positions](https://circleci.com/careers/jobs/) | ~700 |
 | <img src="https://cdn.shopify.com/app-store/listing_images/df5eea6375c938fb30ff095238fd154e/icon/CLW6o7H0lu8CEAE=.png" alt="Algolia" width="32px"/> | [Algolia](https://www.algolia.com/) | [103 Open Positions](https://www.algolia.com/careers/?query=&amp;page=1&amp;configure%5BclickAnalytics%5D=true&amp;configure%5BhitsPerPage%5D=15&amp;hierarchicalMenu%5Bcategories.lvl0%5D=R%26D) | ~600 |
 | <img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/kong-logomark-blue-256px.png" alt="Kong" width="32px"/> | [Kong](https://konghq.com/kong) | [41 Open Positions](https://jobs.lever.co/kong?department=Engineering) | ~400 |
@@ -17,9 +17,9 @@ We only count positions in Engineering / IT that are located in US / Europe.
 | <img src="https://www.svgrepo.com/show/327408/logo-vercel.svg" alt="Vercel" width="32px"/> | [Vercel](https://vercel.com/home) | [7 Open Positions](https://vercel.com/careers?department=Engineering) | ~300 |
 | <img src="https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png" alt="Supabase" width="32px"/> | [Supabase](https://supabase.com/) | [5 Open Positions](https://boards.greenhouse.io/supabase) | ~100 |
 | <img src="https://v4.mui.com/static/logo.png" alt="Material UI" width="32px"/> | [Material UI](https://mui.com/) | [5 Open Positions](https://mui.com/careers) | ~40 |
-| <img src="https://cdn.worldvectorlogo.com/logos/strapi-2.svg" alt="Strapi" width="32px"/> | [Strapi](https://strapi.io/) | [5 Open Positions](https://jobs.lever.co/strapi?team=Engineering%20%F0%9F%A7%99%E2%80%8D%E2%99%80%EF%B8%8F) | ~40 |
+| <img src="https://cdn.worldvectorlogo.com/logos/strapi-2.svg" alt="Strapi" width="32px"/> | [Strapi](https://strapi.io/) | [7 Open Positions](https://jobs.lever.co/strapi?team=Engineering%20%F0%9F%A7%99%E2%80%8D%E2%99%80%EF%B8%8F) | ~40 |
 | <img src="https://ghost.org/images/logos/ghost-logo-orb.png" alt="Ghost" width="32px"/> | [Ghost](https://ghost.org/) | [2 Open Positions](https://careers.ghost.org/) | ~31 |
-| <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch" width="32px"/> | [Meilisearch](https://www.meilisearch.com/) | [2 Open Positions](https://jobs.lever.co/meili) | ~25 |
+| <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch" width="32px"/> | [Meilisearch](https://www.meilisearch.com/) | [4 Open Positions](https://jobs.lever.co/meili) | ~25 |
 
 *Numbers may be incorrect*
 
