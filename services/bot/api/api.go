@@ -40,6 +40,7 @@ func FetchAPI(method string, path string, opts RequestOptions) ([]byte, error) {
 	if method != "GET" {
 		if _, isDryRun := os.LookupEnv("DRY_RUN"); isDryRun {
 			log.Printf("Dry-Run: Skip %s %s\n", method, path)
+			return []byte{}, nil
 		}
 	}
 
