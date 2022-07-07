@@ -1,7 +1,5 @@
 # Open Positions
 
-We only count positions in Engineering / IT that are located in US / Europe.
-
 | Logo | Company | Open Positions | Employees |
 |:---:|---|---|---|
 | <img src="https://play-lh.googleusercontent.com/2PS6w7uBztfuMys5fgodNkTwTOE6bLVB2cJYbu5GHlARAK36FzO5bUfMDP9cEJk__cE" alt="Stripe" width="32px"/> | [Stripe](https://stripe.com/) | [101 Open Positions](https://stripe.com/jobs/search?teams=Banking+as+a+Service&amp;teams=Climate&amp;teams=Connect&amp;teams=Crypto&amp;teams=Mobile&amp;teams=New+Financial+Products&amp;teams=Payments&amp;teams=Platform&amp;teams=Revenue+%26+Financial+Management&amp;teams=Tax&amp;teams=Terminal) | ~6800 |
