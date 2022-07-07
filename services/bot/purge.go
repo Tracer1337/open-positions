@@ -51,6 +51,10 @@ func runPurge() {
 }
 
 func checkCompany(company api.Company) bool {
+	if company.Attributes.OpenPositionsCount == 0 {
+		return false
+	}
+
 	isValid := true
 
 	var wg sync.WaitGroup
