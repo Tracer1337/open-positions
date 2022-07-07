@@ -5,7 +5,7 @@ We only count positions in Engineering / IT that are located in US / Europe.
 | Logo | Company | Open Positions | Employees |
 |:---:|---|---|---|
 | <img src="https://play-lh.googleusercontent.com/2PS6w7uBztfuMys5fgodNkTwTOE6bLVB2cJYbu5GHlARAK36FzO5bUfMDP9cEJk__cE" alt="Stripe" width="32px"/> | [Stripe](https://stripe.com/) | [101 Open Positions](https://stripe.com/jobs/search?teams=Banking+as+a+Service&amp;teams=Climate&amp;teams=Connect&amp;teams=Crypto&amp;teams=Mobile&amp;teams=New+Financial+Products&amp;teams=Payments&amp;teams=Platform&amp;teams=Revenue+%26+Financial+Management&amp;teams=Tax&amp;teams=Terminal) | ~6800 |
-| <img src="https://cdn.iconscout.com/icon/free/png-256/mongodb-3521676-2945120.png" alt="MongoDB" width="32px"/> | [MongoDB](https://www.mongodb.com/) | [50 Open Positions](https://www.mongodb.com/careers/departments/engineering) | ~3500 |
+| <img src="https://cdn.iconscout.com/icon/free/png-256/mongodb-3521676-2945120.png" alt="MongoDB" width="32px"/> | [MongoDB](https://www.mongodb.com/) | [10 Open Positions](https://www.mongodb.com/careers/departments/engineering) | ~3500 |
 | <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="32px"/> | [GitHub](https://github.com/) | [44 Open Positions](https://github.com/about/careers) | ~2500 |
 | <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/gitlab_original_logo_icon_146503.png" alt="GitLab" width="32px"/> | [GitLab](https://about.gitlab.com/) | [88 Open Positions](https://about.gitlab.com/jobs/all-jobs/#Engineering) | ~1700 |
 | <img src="https://kfwiki.arcadewelten.eu/images/d/d9/Discord_icon_130958.png" alt="Discord" width="32px"/> | [Discord](https://discord.com/) | [20 Open Positions](https://discord.com/jobs?team=engineering) | ~1200 |
