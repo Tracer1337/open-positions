@@ -33,7 +33,7 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch" width="32px"/> | [Meilisearch](https://www.meilisearch.com/) | [4 Open Positions](https://jobs.lever.co/meili) | ~25 |
 | <img src="https://blog.stackblitz.com/img/favicon.png" alt="Stackblitz" width="32px"/> | [Stackblitz](https://stackblitz.com/) | [3 Open Positions](https://stackblitz.com/careers) | ~25 |
 
-<details id="sorted-by-open-positions>
+<details id="sorted-by-open-positions">
 <summary>Sorted by Open Positions</summary>
   
 | Logo | Company | Open Positions | Employees |
