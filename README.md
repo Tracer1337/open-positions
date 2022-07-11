@@ -15,6 +15,7 @@ We count positions in Engineering / IT that are located in US / Europe.
 | <img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/kong-logomark-blue-256px.png" alt="Kong" width="32px"/> | [Kong](https://konghq.com/kong) | [41 Open Positions](https://jobs.lever.co/kong?department=Engineering) | ~400 |
 | <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker" width="32px"/> | [Docker](https://www.docker.com/) | [27 Open Positions](https://www.docker.com/career-openings/) | ~400 |
 | <img src="https://www.svgrepo.com/show/327408/logo-vercel.svg" alt="Vercel" width="32px"/> | [Vercel](https://vercel.com/home) | [7 Open Positions](https://vercel.com/careers?department=Engineering) | ~300 |
+| <img src="https://cdn.iconscout.com/icon/free/png-128/shopware-3521706-2945150.png" alt="Shopware" width="32px"/> | [Shopware](https://www.shopware.com/) | [20 Open Positions](https://www.shopware.com/de/jobs/) | ~250 |
 | <img src="https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png" alt="Supabase" width="32px"/> | [Supabase](https://supabase.com/) | [5 Open Positions](https://boards.greenhouse.io/supabase) | ~100 |
 | <img src="https://www.gitpod.io/svg/media-kit/logo-mark.svg" alt="GitPod" width="32px"/> | [GitPod](https://www.gitpod.io/) | [12 Open Positions](https://gitpod.crew.work/jobs) | ~100 |
 | <img src="https://v4.mui.com/static/logo.png" alt="Material UI" width="32px"/> | [Material UI](https://mui.com/) | [5 Open Positions](https://mui.com/careers) | ~40 |
