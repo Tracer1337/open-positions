@@ -10,6 +10,7 @@ import (
 	"open-positions/bot/templates"
 	"os"
 	"path/filepath"
+	"sort"
 	"sync"
 	"text/template"
 
@@ -87,9 +88,16 @@ func render(companies []api.Company, readme api.Readme, path string) {
 		panic("Error parsing readme template")
 	}
 
-	table := templates.ReadmeTable(companies)
+	sortedByEmployees := templates.ReadmeTable(companies)
+
+	sort.SliceStable(companies, func(i, j int) bool {
+		return companies[j].Attributes.OpenPositionsCount < companies[i].Attributes.OpenPositionsCount
+	})
+	sortedByOpenPositions := templates.ReadmeTable(companies)
+
 	err = tmpl.Execute(file, map[string]string{
-		"Table": table,
+		"SortedByEmployees":     sortedByEmployees,
+		"SortedByOpenPositions": sortedByOpenPositions,
 	})
 	if err != nil {
 		panic("Error rendering table")
