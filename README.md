@@ -11,7 +11,7 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 |:---:|---|---|---|
 <no value>
 
-<details id="sorted-by-open-positions" open>
+<details id="sorted-by-open-positions">
 <summary>Sorted by Open Positions</summary>
 
 | Logo | Company | Open Positions | Employees |
