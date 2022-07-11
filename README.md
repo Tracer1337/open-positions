@@ -1,6 +1,6 @@
 # Open Positions
 
-We count positions in Engineering / IT that are located in US / Europe.
+We count positions in Engineering / IT that are located in US / Europe (or remote).
 
 | Logo | Company | Open Positions | Employees |
 |:---:|---|---|---|
