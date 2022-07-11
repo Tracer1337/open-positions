@@ -17,7 +17,7 @@ import (
 func scheduleScrape() {
 	c := cron.New()
 
-	c.AddFunc("@daily", func() {
+	c.AddFunc("@hourly", func() {
 		log.Println("Scrape Start")
 		runScrape()
 		log.Println("Scrape Done")

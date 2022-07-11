@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"os"
 
@@ -36,6 +37,13 @@ type ResponseMeta struct {
 }
 
 func FetchAPI(method string, path string, opts RequestOptions) ([]byte, error) {
+	if method != "GET" {
+		if _, isDryRun := os.LookupEnv("DRY_RUN"); isDryRun {
+			log.Printf("Dry-Run: Skip %s %s\n", method, path)
+			return []byte{}, nil
+		}
+	}
+
 	v, err := query.Values(opts.Query)
 	if err != nil {
 		panic(err)
