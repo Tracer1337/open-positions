@@ -1,11 +1,8 @@
 # Open Positions
 
-* <a href="#sorted-by-employees">Sorted by Employees</a>
-* <a href="#sorted-by-open-positions">Sorted by Open Positions</a>
-
 We count positions in Engineering / IT that are located in US / Europe (or remote).
 
-<details id="sorted-by-employees" open>
+<details open>
 <summary>Sorted by Employees</summary>
 
 | Logo | Company | Open Positions | Employees |
@@ -36,7 +33,7 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 
 </details>
 
-<details id="sorted-by-open-positions">
+<details>
 <summary>Sorted by Open Positions</summary>
 
 *Work In Progress*
