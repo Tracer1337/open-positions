@@ -21,7 +21,7 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://www.svgrepo.com/show/327408/logo-vercel.svg" alt="Vercel" width="32px"/> | [Vercel](https://vercel.com/home) | [7 Open Positions](https://vercel.com/careers?department=Engineering) | ~300 |
 | <img src="https://cdn.worldvectorlogo.com/logos/apollo-graphql-compact.svg" alt="Apollo" width="32px"/> | [Apollo](https://www.apollographql.com/) | [11 Open Positions](https://www.apollographql.com/careers/) | ~200 |
 | <img src="https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png" alt="Supabase" width="32px"/> | [Supabase](https://supabase.com/) | [5 Open Positions](https://boards.greenhouse.io/supabase) | ~100 |
-| <img src="https://www.gitpod.io/svg/media-kit/logo-mark.svg" alt="GitPod" width="32px"/> | [GitPod](https://www.gitpod.io/) | [12 Open Positions](https://gitpod.crew.work/jobs) | ~100 |
+| <img src="https://www.gitpod.io/svg/media-kit/logo-mark.svg" alt="GitPod" width="32px"/> | [GitPod](https://www.gitpod.io/) | [14 Open Positions](https://gitpod.crew.work/jobs) | ~100 |
 | <img src="https://app.airfocus.com/api/integration-providers/trello/powerup/assets/icon.svg" alt="Airfocus" width="32px"/> | [Airfocus](https://airfocus.com/) | [1 Open Positions](https://airfocus.jobs.personio.de/) | ~50 |
 | <img src="https://v4.mui.com/static/logo.png" alt="Material UI" width="32px"/> | [Material UI](https://mui.com/) | [5 Open Positions](https://mui.com/careers) | ~40 |
 | <img src="https://cdn.worldvectorlogo.com/logos/strapi-2.svg" alt="Strapi" width="32px"/> | [Strapi](https://strapi.io/) | [7 Open Positions](https://jobs.lever.co/strapi?team=Engineering%20%F0%9F%A7%99%E2%80%8D%E2%99%80%EF%B8%8F) | ~40 |
@@ -44,7 +44,7 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://cdn.iconscout.com/icon/free/png-128/shopware-3521706-2945150.png" alt="Shopware" width="32px"/> | [Shopware](https://www.shopware.com/) | [20 Open Positions](https://www.shopware.com/en/jobs/) | ~350 |
 | <img src="https://kfwiki.arcadewelten.eu/images/d/d9/Discord_icon_130958.png" alt="Discord" width="32px"/> | [Discord](https://discord.com/) | [15 Open Positions](https://discord.com/jobs?team=engineering) | ~1200 |
 | <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" width="32px"/> | [Postman](https://www.postman.com/) | [14 Open Positions](https://www.postman.com/company/careers/open-positions/) | ~900 |
-| <img src="https://www.gitpod.io/svg/media-kit/logo-mark.svg" alt="GitPod" width="32px"/> | [GitPod](https://www.gitpod.io/) | [12 Open Positions](https://gitpod.crew.work/jobs) | ~100 |
+| <img src="https://www.gitpod.io/svg/media-kit/logo-mark.svg" alt="GitPod" width="32px"/> | [GitPod](https://www.gitpod.io/) | [14 Open Positions](https://gitpod.crew.work/jobs) | ~100 |
 | <img src="https://cdn.worldvectorlogo.com/logos/apollo-graphql-compact.svg" alt="Apollo" width="32px"/> | [Apollo](https://www.apollographql.com/) | [11 Open Positions](https://www.apollographql.com/careers/) | ~200 |
 | <img src="https://cdn.iconscout.com/icon/free/png-256/mongodb-3521676-2945120.png" alt="MongoDB" width="32px"/> | [MongoDB](https://www.mongodb.com/) | [10 Open Positions](https://www.mongodb.com/careers/departments/engineering) | ~3500 |
 | <img src="https://www.svgrepo.com/show/327408/logo-vercel.svg" alt="Vercel" width="32px"/> | [Vercel](https://vercel.com/home) | [7 Open Positions](https://vercel.com/careers?department=Engineering) | ~300 |
