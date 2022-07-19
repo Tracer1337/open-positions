@@ -25,7 +25,7 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://www.gitpod.io/svg/media-kit/logo-mark.svg" alt="GitPod" width="32px"/> | [GitPod](https://www.gitpod.io/) | [13 Open Positions](https://gitpod.crew.work/jobs) | ~100 |
 | <img src="https://app.airfocus.com/api/integration-providers/trello/powerup/assets/icon.svg" alt="Airfocus" width="32px"/> | [Airfocus](https://airfocus.com/) | [1 Open Positions](https://airfocus.jobs.personio.de/) | ~50 |
 | <img src="https://v4.mui.com/static/logo.png" alt="Material UI" width="32px"/> | [Material UI](https://mui.com/) | [5 Open Positions](https://mui.com/careers) | ~40 |
-| <img src="https://cdn.worldvectorlogo.com/logos/strapi-2.svg" alt="Strapi" width="32px"/> | [Strapi](https://strapi.io/) | [5 Open Positions](https://jobs.lever.co/strapi?team=Engineering%20%F0%9F%A7%99%E2%80%8D%E2%99%80%EF%B8%8F) | ~40 |
+| <img src="https://cdn.worldvectorlogo.com/logos/strapi-2.svg" alt="Strapi" width="32px"/> | [Strapi](https://strapi.io/) | [4 Open Positions](https://jobs.lever.co/strapi?team=Engineering%20%F0%9F%A7%99%E2%80%8D%E2%99%80%EF%B8%8F) | ~40 |
 | <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch" width="32px"/> | [Meilisearch](https://www.meilisearch.com/) | [3 Open Positions](https://jobs.lever.co/meili) | ~25 |
 | <img src="https://blog.stackblitz.com/img/favicon.png" alt="Stackblitz" width="32px"/> | [Stackblitz](https://stackblitz.com/) | [3 Open Positions](https://stackblitz.com/careers) | ~25 |
 
@@ -52,8 +52,8 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://www.svgrepo.com/show/327408/logo-vercel.svg" alt="Vercel" width="32px"/> | [Vercel](https://vercel.com/home) | [8 Open Positions](https://vercel.com/careers?department=Engineering) | ~300 |
 | <img src="https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png" alt="Supabase" width="32px"/> | [Supabase](https://supabase.com/) | [5 Open Positions](https://boards.greenhouse.io/supabase) | ~100 |
 | <img src="https://v4.mui.com/static/logo.png" alt="Material UI" width="32px"/> | [Material UI](https://mui.com/) | [5 Open Positions](https://mui.com/careers) | ~40 |
-| <img src="https://cdn.worldvectorlogo.com/logos/strapi-2.svg" alt="Strapi" width="32px"/> | [Strapi](https://strapi.io/) | [5 Open Positions](https://jobs.lever.co/strapi?team=Engineering%20%F0%9F%A7%99%E2%80%8D%E2%99%80%EF%B8%8F) | ~40 |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Circleci-icon-logo.svg/1200px-Circleci-icon-logo.svg.png" alt="Circle CI" width="32px"/> | [Circle CI](https://circleci.com/) | [4 Open Positions](https://circleci.com/careers/jobs/) | ~700 |
+| <img src="https://cdn.worldvectorlogo.com/logos/strapi-2.svg" alt="Strapi" width="32px"/> | [Strapi](https://strapi.io/) | [4 Open Positions](https://jobs.lever.co/strapi?team=Engineering%20%F0%9F%A7%99%E2%80%8D%E2%99%80%EF%B8%8F) | ~40 |
 | <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch" width="32px"/> | [Meilisearch](https://www.meilisearch.com/) | [3 Open Positions](https://jobs.lever.co/meili) | ~25 |
 | <img src="https://blog.stackblitz.com/img/favicon.png" alt="Stackblitz" width="32px"/> | [Stackblitz](https://stackblitz.com/) | [3 Open Positions](https://stackblitz.com/careers) | ~25 |
 | <img src="https://app.airfocus.com/api/integration-providers/trello/powerup/assets/icon.svg" alt="Airfocus" width="32px"/> | [Airfocus](https://airfocus.com/) | [1 Open Positions](https://airfocus.jobs.personio.de/) | ~50 |
