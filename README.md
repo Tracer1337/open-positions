@@ -11,7 +11,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://cdn.iconscout.com/icon/free/png-256/mongodb-3521676-2945120.png" alt="MongoDB" width="32px"/> | [MongoDB](https://www.mongodb.com/) | [10 Open Positions](https://www.mongodb.com/careers/departments/engineering) | ~3500 |
 | <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="32px"/> | [GitHub](https://github.com/) | [33 Open Positions](https://github.com/about/careers) | ~2500 |
 | <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/gitlab_original_logo_icon_146503.png" alt="GitLab" width="32px"/> | [GitLab](https://about.gitlab.com/) | [88 Open Positions](https://about.gitlab.com/jobs/all-jobs/#Engineering) | ~1700 |
-| <img src="https://kfwiki.arcadewelten.eu/images/d/d9/Discord_icon_130958.png" alt="Discord" width="32px"/> | [Discord](https://discord.com/) | [0 Open Positions](https://discord.com/jobs?team=engineering) | ~1200 |
 | <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" width="32px"/> | [Postman](https://www.postman.com/) | [13 Open Positions](https://www.postman.com/company/careers/open-positions/) | ~900 |
 | <img src="https://www.iconpacks.net/icons/2/free-reddit-logo-icon-2436-thumb.png" alt="Reddit" width="32px"/> | [Reddit](https://www.reddit.com/) | [325 Open Positions](https://www.redditinc.com/careers) | ~700 |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Circleci-icon-logo.svg/1200px-Circleci-icon-logo.svg.png" alt="Circle CI" width="32px"/> | [Circle CI](https://circleci.com/) | [4 Open Positions](https://circleci.com/careers/jobs/) | ~700 |
@@ -29,7 +28,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://cdn.worldvectorlogo.com/logos/strapi-2.svg" alt="Strapi" width="32px"/> | [Strapi](https://strapi.io/) | [4 Open Positions](https://jobs.lever.co/strapi?team=Engineering%20%F0%9F%A7%99%E2%80%8D%E2%99%80%EF%B8%8F) | ~40 |
 | <img src="https://ghost.org/images/logos/ghost-logo-orb.png" alt="Ghost" width="32px"/> | [Ghost](https://ghost.org/) | [2 Open Positions](https://careers.ghost.org/) | ~30 |
 | <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch" width="32px"/> | [Meilisearch](https://www.meilisearch.com/) | [3 Open Positions](https://jobs.lever.co/meili) | ~25 |
-| <img src="https://blog.stackblitz.com/img/favicon.png" alt="Stackblitz" width="32px"/> | [Stackblitz](https://stackblitz.com/) | [0 Open Positions](https://stackblitz.com/careers) | ~25 |
 | <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/bvh2xc3wlmzcvihzonmq" alt="Appflowy" width="32px"/> | [Appflowy](https://www.appflowy.io/) | [1 Open Positions](https://www.appflowy.io/careers) | ~10 |
 | <img src="https://i.ibb.co/NygDvTW/TMAcio-Ha-400x400-removebg-preview.png" alt="Baserow" width="32px"/> | [Baserow](https://baserow.io/) | [3 Open Positions](https://baserow.io/jobs) | ~10 |
 
@@ -63,8 +61,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://ghost.org/images/logos/ghost-logo-orb.png" alt="Ghost" width="32px"/> | [Ghost](https://ghost.org/) | [2 Open Positions](https://careers.ghost.org/) | ~30 |
 | <img src="https://app.airfocus.com/api/integration-providers/trello/powerup/assets/icon.svg" alt="Airfocus" width="32px"/> | [Airfocus](https://airfocus.com/) | [1 Open Positions](https://airfocus.jobs.personio.de/) | ~50 |
 | <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/bvh2xc3wlmzcvihzonmq" alt="Appflowy" width="32px"/> | [Appflowy](https://www.appflowy.io/) | [1 Open Positions](https://www.appflowy.io/careers) | ~10 |
-| <img src="https://kfwiki.arcadewelten.eu/images/d/d9/Discord_icon_130958.png" alt="Discord" width="32px"/> | [Discord](https://discord.com/) | [0 Open Positions](https://discord.com/jobs?team=engineering) | ~1200 |
-| <img src="https://blog.stackblitz.com/img/favicon.png" alt="Stackblitz" width="32px"/> | [Stackblitz](https://stackblitz.com/) | [0 Open Positions](https://stackblitz.com/careers) | ~25 |
   
 </details>
 
