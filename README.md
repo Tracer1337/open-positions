@@ -13,7 +13,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/gitlab_original_logo_icon_146503.png" alt="GitLab" width="32px"/> | [GitLab](https://about.gitlab.com/) | [91 Open Positions](https://about.gitlab.com/jobs/all-jobs/#Engineering) | ~1700 |
 | <img src="https://kfwiki.arcadewelten.eu/images/d/d9/Discord_icon_130958.png" alt="Discord" width="32px"/> | [Discord](https://discord.com/) | [19 Open Positions](https://discord.com/jobs?team=engineering) | ~1200 |
 | <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" width="32px"/> | [Postman](https://www.postman.com/) | [16 Open Positions](https://www.postman.com/company/careers/open-positions/) | ~900 |
-| <img src="https://www.iconpacks.net/icons/2/free-reddit-logo-icon-2436-thumb.png" alt="Reddit" width="32px"/> | [Reddit](https://www.reddit.com/) | [325 Open Positions](https://www.redditinc.com/careers) | ~700 |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Circleci-icon-logo.svg/1200px-Circleci-icon-logo.svg.png" alt="Circle CI" width="32px"/> | [Circle CI](https://circleci.com/) | [4 Open Positions](https://circleci.com/careers/jobs/) | ~700 |
 | <img src="https://cdn.shopify.com/app-store/listing_images/df5eea6375c938fb30ff095238fd154e/icon/CLW6o7H0lu8CEAE=.png" alt="Algolia" width="32px"/> | [Algolia](https://www.algolia.com/) | [15 Open Positions](https://www.algolia.com/careers/?hierarchicalMenu%5Bcategories.lvl0%5D=R%26D&amp;page=1&amp;configure%5BclickAnalytics%5D=true&amp;configure%5BhitsPerPage%5D=15) | ~600 |
 | <img src="https://seeklogo.com/images/C/contentful-logo-C395C545BF-seeklogo.com.png" alt="Contentful" width="32px"/> | [Contentful](https://www.contentful.com/) | [196 Open Positions](https://www.contentful.com/careers/?departments=Engineering) | ~600 |
@@ -28,7 +27,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://app.airfocus.com/api/integration-providers/trello/powerup/assets/icon.svg" alt="Airfocus" width="32px"/> | [Airfocus](https://airfocus.com/) | [1 Open Positions](https://airfocus.jobs.personio.de/) | ~50 |
 | <img src="https://v4.mui.com/static/logo.png" alt="Material UI" width="32px"/> | [Material UI](https://mui.com/) | [5 Open Positions](https://mui.com/careers) | ~40 |
 | <img src="https://cdn.worldvectorlogo.com/logos/strapi-2.svg" alt="Strapi" width="32px"/> | [Strapi](https://strapi.io/) | [2 Open Positions](https://jobs.lever.co/strapi?team=Engineering%20%F0%9F%A7%99%E2%80%8D%E2%99%80%EF%B8%8F) | ~40 |
-| <img src="https://ghost.org/images/logos/ghost-logo-orb.png" alt="Ghost" width="32px"/> | [Ghost](https://ghost.org/) | [0 Open Positions](https://careers.ghost.org/) | ~30 |
 | <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch" width="32px"/> | [Meilisearch](https://www.meilisearch.com/) | [3 Open Positions](https://jobs.lever.co/meili) | ~25 |
 | <img src="https://blog.stackblitz.com/img/favicon.png" alt="Stackblitz" width="32px"/> | [Stackblitz](https://stackblitz.com/) | [3 Open Positions](https://stackblitz.com/careers) | ~25 |
 | <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/bvh2xc3wlmzcvihzonmq" alt="Appflowy" width="32px"/> | [Appflowy](https://www.appflowy.io/) | [1 Open Positions](https://www.appflowy.io/careers) | ~10 |
@@ -41,7 +39,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 
 | Logo | Company | Open Positions | Employees |
 |:---:|---|---|---|
-| <img src="https://www.iconpacks.net/icons/2/free-reddit-logo-icon-2436-thumb.png" alt="Reddit" width="32px"/> | [Reddit](https://www.reddit.com/) | [325 Open Positions](https://www.redditinc.com/careers) | ~700 |
 | <img src="https://seeklogo.com/images/C/contentful-logo-C395C545BF-seeklogo.com.png" alt="Contentful" width="32px"/> | [Contentful](https://www.contentful.com/) | [196 Open Positions](https://www.contentful.com/careers/?departments=Engineering) | ~600 |
 | <img src="https://play-lh.googleusercontent.com/2PS6w7uBztfuMys5fgodNkTwTOE6bLVB2cJYbu5GHlARAK36FzO5bUfMDP9cEJk__cE" alt="Stripe" width="32px"/> | [Stripe](https://stripe.com/) | [101 Open Positions](https://stripe.com/jobs/search?teams=Banking+as+a+Service&amp;teams=Climate&amp;teams=Connect&amp;teams=Crypto&amp;teams=Mobile&amp;teams=New+Financial+Products&amp;teams=Payments&amp;teams=Platform&amp;teams=Revenue+%26+Financial+Management&amp;teams=Tax&amp;teams=Terminal) | ~6800 |
 | <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/gitlab_original_logo_icon_146503.png" alt="GitLab" width="32px"/> | [GitLab](https://about.gitlab.com/) | [91 Open Positions](https://about.gitlab.com/jobs/all-jobs/#Engineering) | ~1700 |
@@ -66,7 +63,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://cdn.worldvectorlogo.com/logos/strapi-2.svg" alt="Strapi" width="32px"/> | [Strapi](https://strapi.io/) | [2 Open Positions](https://jobs.lever.co/strapi?team=Engineering%20%F0%9F%A7%99%E2%80%8D%E2%99%80%EF%B8%8F) | ~40 |
 | <img src="https://app.airfocus.com/api/integration-providers/trello/powerup/assets/icon.svg" alt="Airfocus" width="32px"/> | [Airfocus](https://airfocus.com/) | [1 Open Positions](https://airfocus.jobs.personio.de/) | ~50 |
 | <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/bvh2xc3wlmzcvihzonmq" alt="Appflowy" width="32px"/> | [Appflowy](https://www.appflowy.io/) | [1 Open Positions](https://www.appflowy.io/careers) | ~10 |
-| <img src="https://ghost.org/images/logos/ghost-logo-orb.png" alt="Ghost" width="32px"/> | [Ghost](https://ghost.org/) | [0 Open Positions](https://careers.ghost.org/) | ~30 |
   
 </details>
 
