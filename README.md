@@ -31,7 +31,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://ghost.org/images/logos/ghost-logo-orb.png" alt="Ghost" width="32px"/> | [Ghost](https://ghost.org/) | [2 Open Positions](https://careers.ghost.org/) | ~30 |
 | <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch" width="32px"/> | [Meilisearch](https://www.meilisearch.com/) | [3 Open Positions](https://jobs.lever.co/meili) | ~25 |
 | <img src="https://blog.stackblitz.com/img/favicon.png" alt="Stackblitz" width="32px"/> | [Stackblitz](https://stackblitz.com/) | [3 Open Positions](https://stackblitz.com/careers) | ~25 |
-| <img src="https://pipedream.com/_static/embed-image.5f8189f7.png" alt="Pipedream" width="32px"/> | [Pipedream](https://pipedream.com/) | [0 Open Positions](https://angel.co/company/pipedreamhq/jobs?roles=engineering) | ~15 |
 | <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/bvh2xc3wlmzcvihzonmq" alt="Appflowy" width="32px"/> | [Appflowy](https://www.appflowy.io/) | [1 Open Positions](https://www.appflowy.io/careers) | ~10 |
 | <img src="https://i.ibb.co/NygDvTW/TMAcio-Ha-400x400-removebg-preview.png" alt="Baserow" width="32px"/> | [Baserow](https://baserow.io/) | [3 Open Positions](https://baserow.io/jobs) | ~10 |
 
@@ -68,7 +67,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://ghost.org/images/logos/ghost-logo-orb.png" alt="Ghost" width="32px"/> | [Ghost](https://ghost.org/) | [2 Open Positions](https://careers.ghost.org/) | ~30 |
 | <img src="https://app.airfocus.com/api/integration-providers/trello/powerup/assets/icon.svg" alt="Airfocus" width="32px"/> | [Airfocus](https://airfocus.com/) | [1 Open Positions](https://airfocus.jobs.personio.de/) | ~50 |
 | <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/bvh2xc3wlmzcvihzonmq" alt="Appflowy" width="32px"/> | [Appflowy](https://www.appflowy.io/) | [1 Open Positions](https://www.appflowy.io/careers) | ~10 |
-| <img src="https://pipedream.com/_static/embed-image.5f8189f7.png" alt="Pipedream" width="32px"/> | [Pipedream](https://pipedream.com/) | [0 Open Positions](https://angel.co/company/pipedreamhq/jobs?roles=engineering) | ~15 |
   
 </details>
 
