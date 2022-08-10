@@ -32,7 +32,7 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://ghost.org/images/logos/ghost-logo-orb.png" alt="Ghost" width="32px"/> | [Ghost](https://ghost.org/) | [2 Open Positions](https://careers.ghost.org/) | ~30 |
 | <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch" width="32px"/> | [Meilisearch](https://www.meilisearch.com/) | [2 Open Positions](https://jobs.lever.co/meili) | ~25 |
 | <img src="https://blog.stackblitz.com/img/favicon.png" alt="Stackblitz" width="32px"/> | [Stackblitz](https://stackblitz.com/) | [3 Open Positions](https://stackblitz.com/careers) | ~25 |
-| <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/bvh2xc3wlmzcvihzonmq" alt="Appflowy" width="32px"/> | [Appflowy](https://www.appflowy.io/) | [1 Open Positions](https://www.appflowy.io/careers) | ~10 |
+| <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/bvh2xc3wlmzcvihzonmq" alt="Appflowy" width="32px"/> | [Appflowy](https://www.appflowy.io/) | [0 Open Positions](https://www.appflowy.io/careers) | ~10 |
 | <img src="https://i.ibb.co/NygDvTW/TMAcio-Ha-400x400-removebg-preview.png" alt="Baserow" width="32px"/> | [Baserow](https://baserow.io/) | [3 Open Positions](https://baserow.io/jobs) | ~10 |
 
 </details>
@@ -68,7 +68,7 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/kong-logomark-blue-256px.png" alt="Kong" width="32px"/> | [Kong](https://konghq.com/kong) | [1 Open Positions](https://jobs.lever.co/kong?department=Engineering) | ~400 |
 | <img src="https://upload.wikimedia.org/wikipedia/en/3/31/Cockroach_Labs_Logo.png" alt="Cockroach Labs" width="32px"/> | [Cockroach Labs](https://www.cockroachlabs.com/) | [1 Open Positions](https://www.cockroachlabs.com/careers/open-positions/) | ~400 |
 | <img src="https://app.airfocus.com/api/integration-providers/trello/powerup/assets/icon.svg" alt="Airfocus" width="32px"/> | [Airfocus](https://airfocus.com/) | [1 Open Positions](https://airfocus.jobs.personio.de/) | ~50 |
-| <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/bvh2xc3wlmzcvihzonmq" alt="Appflowy" width="32px"/> | [Appflowy](https://www.appflowy.io/) | [1 Open Positions](https://www.appflowy.io/careers) | ~10 |
+| <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/bvh2xc3wlmzcvihzonmq" alt="Appflowy" width="32px"/> | [Appflowy](https://www.appflowy.io/) | [0 Open Positions](https://www.appflowy.io/careers) | ~10 |
   
 </details>
 
