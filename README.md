@@ -19,7 +19,7 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" alt="Notion" width="32px"/> | [Notion](https://www.notion.so/product) | [19 Open Positions](https://www.notion.so/careers) | ~600 |
 | <img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/kong-logomark-blue-256px.png" alt="Kong" width="32px"/> | [Kong](https://konghq.com/kong) | [1 Open Positions](https://jobs.lever.co/kong?department=Engineering) | ~400 |
 | <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker" width="32px"/> | [Docker](https://www.docker.com/) | [27 Open Positions](https://www.docker.com/career-openings/) | ~400 |
-| <img src="https://upload.wikimedia.org/wikipedia/en/3/31/Cockroach_Labs_Logo.png" alt="Cockroach Labs" width="32px"/> | [Cockroach Labs](https://www.cockroachlabs.com/) | [1 Open Positions](https://www.cockroachlabs.com/careers/open-positions/) | ~400 |
+| <img src="https://upload.wikimedia.org/wikipedia/en/3/31/Cockroach_Labs_Logo.png" alt="Cockroach Labs" width="32px"/> | [Cockroach Labs](https://www.cockroachlabs.com/) | [0 Open Positions](https://www.cockroachlabs.com/careers/open-positions/) | ~400 |
 | <img src="https://cdn.iconscout.com/icon/free/png-128/shopware-3521706-2945150.png" alt="Shopware" width="32px"/> | [Shopware](https://www.shopware.com/) | [16 Open Positions](https://www.shopware.com/en/jobs/) | ~350 |
 | <img src="https://www.svgrepo.com/show/327408/logo-vercel.svg" alt="Vercel" width="32px"/> | [Vercel](https://vercel.com/home) | [5 Open Positions](https://vercel.com/careers?department=Engineering) | ~300 |
 | <img src="https://cdn.worldvectorlogo.com/logos/apollo-graphql-compact.svg" alt="Apollo" width="32px"/> | [Apollo](https://www.apollographql.com/) | [11 Open Positions](https://www.apollographql.com/careers/) | ~200 |
@@ -63,8 +63,8 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://ghost.org/images/logos/ghost-logo-orb.png" alt="Ghost" width="32px"/> | [Ghost](https://ghost.org/) | [2 Open Positions](https://careers.ghost.org/) | ~30 |
 | <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch" width="32px"/> | [Meilisearch](https://www.meilisearch.com/) | [2 Open Positions](https://jobs.lever.co/meili) | ~25 |
 | <img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/kong-logomark-blue-256px.png" alt="Kong" width="32px"/> | [Kong](https://konghq.com/kong) | [1 Open Positions](https://jobs.lever.co/kong?department=Engineering) | ~400 |
-| <img src="https://upload.wikimedia.org/wikipedia/en/3/31/Cockroach_Labs_Logo.png" alt="Cockroach Labs" width="32px"/> | [Cockroach Labs](https://www.cockroachlabs.com/) | [1 Open Positions](https://www.cockroachlabs.com/careers/open-positions/) | ~400 |
 | <img src="https://app.airfocus.com/api/integration-providers/trello/powerup/assets/icon.svg" alt="Airfocus" width="32px"/> | [Airfocus](https://airfocus.com/) | [1 Open Positions](https://airfocus.jobs.personio.de/) | ~50 |
+| <img src="https://upload.wikimedia.org/wikipedia/en/3/31/Cockroach_Labs_Logo.png" alt="Cockroach Labs" width="32px"/> | [Cockroach Labs](https://www.cockroachlabs.com/) | [0 Open Positions](https://www.cockroachlabs.com/careers/open-positions/) | ~400 |
   
 </details>
 
