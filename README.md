@@ -11,7 +11,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://cdn.iconscout.com/icon/free/png-256/mongodb-3521676-2945120.png" alt="MongoDB" width="32px"/> | [MongoDB](https://www.mongodb.com/) | [10 Open Positions](https://www.mongodb.com/careers/departments/engineering) | ~3500 |
 | <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="32px"/> | [GitHub](https://github.com/) | [5 Open Positions](https://github.com/about/careers) | ~2500 |
 | <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/gitlab_original_logo_icon_146503.png" alt="GitLab" width="32px"/> | [GitLab](https://about.gitlab.com/) | [79 Open Positions](https://about.gitlab.com/jobs/all-jobs/#Engineering) | ~1700 |
-| <img src="https://kfwiki.arcadewelten.eu/images/d/d9/Discord_icon_130958.png" alt="Discord" width="32px"/> | [Discord](https://discord.com/) | [0 Open Positions](https://discord.com/jobs?team=engineering) | ~1200 |
 | <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" width="32px"/> | [Postman](https://www.postman.com/) | [14 Open Positions](https://www.postman.com/company/careers/open-positions/) | ~900 |
 | <img src="https://www.iconpacks.net/icons/2/free-reddit-logo-icon-2436-thumb.png" alt="Reddit" width="32px"/> | [Reddit](https://www.reddit.com/) | [310 Open Positions](https://www.redditinc.com/careers) | ~700 |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Circleci-icon-logo.svg/1200px-Circleci-icon-logo.svg.png" alt="Circle CI" width="32px"/> | [Circle CI](https://circleci.com/) | [5 Open Positions](https://circleci.com/careers/jobs/) | ~700 |
@@ -68,7 +67,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/kong-logomark-blue-256px.png" alt="Kong" width="32px"/> | [Kong](https://konghq.com/kong) | [1 Open Positions](https://jobs.lever.co/kong?department=Engineering) | ~400 |
 | <img src="https://app.airfocus.com/api/integration-providers/trello/powerup/assets/icon.svg" alt="Airfocus" width="32px"/> | [Airfocus](https://airfocus.com/) | [1 Open Positions](https://airfocus.jobs.personio.de/) | ~50 |
 | <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/bvh2xc3wlmzcvihzonmq" alt="Appflowy" width="32px"/> | [Appflowy](https://www.appflowy.io/) | [1 Open Positions](https://www.appflowy.io/careers) | ~10 |
-| <img src="https://kfwiki.arcadewelten.eu/images/d/d9/Discord_icon_130958.png" alt="Discord" width="32px"/> | [Discord](https://discord.com/) | [0 Open Positions](https://discord.com/jobs?team=engineering) | ~1200 |
   
 </details>
 
