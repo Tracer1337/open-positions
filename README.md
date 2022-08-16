@@ -14,7 +14,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" width="32px"/> | [Postman](https://www.postman.com/) | [14 Open Positions](https://www.postman.com/company/careers/open-positions/) | ~900 |
 | <img src="https://www.iconpacks.net/icons/2/free-reddit-logo-icon-2436-thumb.png" alt="Reddit" width="32px"/> | [Reddit](https://www.reddit.com/) | [311 Open Positions](https://www.redditinc.com/careers) | ~700 |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Circleci-icon-logo.svg/1200px-Circleci-icon-logo.svg.png" alt="Circle CI" width="32px"/> | [Circle CI](https://circleci.com/) | [5 Open Positions](https://circleci.com/careers/jobs/) | ~700 |
-| <img src="https://cdn.shopify.com/app-store/listing_images/df5eea6375c938fb30ff095238fd154e/icon/CLW6o7H0lu8CEAE=.png" alt="Algolia" width="32px"/> | [Algolia](https://www.algolia.com/) | [0 Open Positions](https://www.algolia.com/careers/?hierarchicalMenu%5Bcategories.lvl0%5D=R%26D&amp;page=1&amp;configure%5BclickAnalytics%5D=true&amp;configure%5BhitsPerPage%5D=15) | ~600 |
 | <img src="https://seeklogo.com/images/C/contentful-logo-C395C545BF-seeklogo.com.png" alt="Contentful" width="32px"/> | [Contentful](https://www.contentful.com/) | [173 Open Positions](https://www.contentful.com/careers/?departments=Engineering) | ~600 |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" alt="Notion" width="32px"/> | [Notion](https://www.notion.so/product) | [20 Open Positions](https://www.notion.so/careers) | ~600 |
 | <img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/kong-logomark-blue-256px.png" alt="Kong" width="32px"/> | [Kong](https://konghq.com/kong) | [2 Open Positions](https://jobs.lever.co/kong?department=Engineering) | ~400 |
@@ -66,7 +65,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch" width="32px"/> | [Meilisearch](https://www.meilisearch.com/) | [2 Open Positions](https://jobs.lever.co/meili) | ~25 |
 | <img src="https://app.airfocus.com/api/integration-providers/trello/powerup/assets/icon.svg" alt="Airfocus" width="32px"/> | [Airfocus](https://airfocus.com/) | [1 Open Positions](https://airfocus.jobs.personio.de/) | ~50 |
 | <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/bvh2xc3wlmzcvihzonmq" alt="Appflowy" width="32px"/> | [Appflowy](https://www.appflowy.io/) | [1 Open Positions](https://www.appflowy.io/careers) | ~10 |
-| <img src="https://cdn.shopify.com/app-store/listing_images/df5eea6375c938fb30ff095238fd154e/icon/CLW6o7H0lu8CEAE=.png" alt="Algolia" width="32px"/> | [Algolia](https://www.algolia.com/) | [0 Open Positions](https://www.algolia.com/careers/?hierarchicalMenu%5Bcategories.lvl0%5D=R%26D&amp;page=1&amp;configure%5BclickAnalytics%5D=true&amp;configure%5BhitsPerPage%5D=15) | ~600 |
   
 </details>
 
