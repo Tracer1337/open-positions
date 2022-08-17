@@ -12,7 +12,7 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="32px"/> | [GitHub](https://github.com/) | [3 Open Positions](https://github.com/about/careers) | ~2500 |
 | <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/gitlab_original_logo_icon_146503.png" alt="GitLab" width="32px"/> | [GitLab](https://about.gitlab.com/) | [72 Open Positions](https://about.gitlab.com/jobs/all-jobs/#Engineering) | ~1700 |
 | <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" width="32px"/> | [Postman](https://www.postman.com/) | [16 Open Positions](https://www.postman.com/company/careers/open-positions/) | ~900 |
-| <img src="https://www.iconpacks.net/icons/2/free-reddit-logo-icon-2436-thumb.png" alt="Reddit" width="32px"/> | [Reddit](https://www.reddit.com/) | [305 Open Positions](https://www.redditinc.com/careers) | ~700 |
+| <img src="https://www.iconpacks.net/icons/2/free-reddit-logo-icon-2436-thumb.png" alt="Reddit" width="32px"/> | [Reddit](https://www.reddit.com/) | [304 Open Positions](https://www.redditinc.com/careers) | ~700 |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Circleci-icon-logo.svg/1200px-Circleci-icon-logo.svg.png" alt="Circle CI" width="32px"/> | [Circle CI](https://circleci.com/) | [4 Open Positions](https://circleci.com/careers/jobs/) | ~700 |
 | <img src="https://seeklogo.com/images/C/contentful-logo-C395C545BF-seeklogo.com.png" alt="Contentful" width="32px"/> | [Contentful](https://www.contentful.com/) | [158 Open Positions](https://www.contentful.com/careers/?departments=Engineering) | ~600 |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" alt="Notion" width="32px"/> | [Notion](https://www.notion.so/product) | [20 Open Positions](https://www.notion.so/careers) | ~600 |
@@ -40,7 +40,7 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 
 | Logo | Company | Open Positions | Employees |
 |:---:|---|---|---|
-| <img src="https://www.iconpacks.net/icons/2/free-reddit-logo-icon-2436-thumb.png" alt="Reddit" width="32px"/> | [Reddit](https://www.reddit.com/) | [305 Open Positions](https://www.redditinc.com/careers) | ~700 |
+| <img src="https://www.iconpacks.net/icons/2/free-reddit-logo-icon-2436-thumb.png" alt="Reddit" width="32px"/> | [Reddit](https://www.reddit.com/) | [304 Open Positions](https://www.redditinc.com/careers) | ~700 |
 | <img src="https://seeklogo.com/images/C/contentful-logo-C395C545BF-seeklogo.com.png" alt="Contentful" width="32px"/> | [Contentful](https://www.contentful.com/) | [158 Open Positions](https://www.contentful.com/careers/?departments=Engineering) | ~600 |
 | <img src="https://play-lh.googleusercontent.com/2PS6w7uBztfuMys5fgodNkTwTOE6bLVB2cJYbu5GHlARAK36FzO5bUfMDP9cEJk__cE" alt="Stripe" width="32px"/> | [Stripe](https://stripe.com/) | [101 Open Positions](https://stripe.com/jobs/search?teams=Banking+as+a+Service&amp;teams=Climate&amp;teams=Connect&amp;teams=Crypto&amp;teams=Mobile&amp;teams=New+Financial+Products&amp;teams=Payments&amp;teams=Platform&amp;teams=Revenue+%26+Financial+Management&amp;teams=Tax&amp;teams=Terminal) | ~6800 |
 | <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/gitlab_original_logo_icon_146503.png" alt="GitLab" width="32px"/> | [GitLab](https://about.gitlab.com/) | [72 Open Positions](https://about.gitlab.com/jobs/all-jobs/#Engineering) | ~1700 |
