@@ -11,7 +11,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://cdn.iconscout.com/icon/free/png-256/mongodb-3521676-2945120.png" alt="MongoDB" width="32px"/> | [MongoDB](https://www.mongodb.com/) | [10 Open Positions](https://www.mongodb.com/careers/departments/engineering) | ~3500 |
 | <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="32px"/> | [GitHub](https://github.com/) | [3 Open Positions](https://github.com/about/careers) | ~2500 |
 | <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/gitlab_original_logo_icon_146503.png" alt="GitLab" width="32px"/> | [GitLab](https://about.gitlab.com/) | [68 Open Positions](https://about.gitlab.com/jobs/all-jobs/#Engineering) | ~1700 |
-| <img src="https://kfwiki.arcadewelten.eu/images/d/d9/Discord_icon_130958.png" alt="Discord" width="32px"/> | [Discord](https://discord.com/) | [0 Open Positions](https://discord.com/jobs?team=engineering) | ~1200 |
 | <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" width="32px"/> | [Postman](https://www.postman.com/) | [18 Open Positions](https://www.postman.com/company/careers/open-positions/) | ~900 |
 | <img src="https://www.iconpacks.net/icons/2/free-reddit-logo-icon-2436-thumb.png" alt="Reddit" width="32px"/> | [Reddit](https://www.reddit.com/) | [291 Open Positions](https://www.redditinc.com/careers) | ~700 |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Circleci-icon-logo.svg/1200px-Circleci-icon-logo.svg.png" alt="Circle CI" width="32px"/> | [Circle CI](https://circleci.com/) | [4 Open Positions](https://circleci.com/careers/jobs/) | ~700 |
@@ -20,7 +19,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" alt="Notion" width="32px"/> | [Notion](https://www.notion.so/product) | [20 Open Positions](https://www.notion.so/careers) | ~600 |
 | <img src="https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/kong-logomark-blue-256px.png" alt="Kong" width="32px"/> | [Kong](https://konghq.com/kong) | [2 Open Positions](https://jobs.lever.co/kong?department=Engineering) | ~400 |
 | <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker" width="32px"/> | [Docker](https://www.docker.com/) | [27 Open Positions](https://www.docker.com/career-openings/) | ~400 |
-| <img src="https://upload.wikimedia.org/wikipedia/en/3/31/Cockroach_Labs_Logo.png" alt="Cockroach Labs" width="32px"/> | [Cockroach Labs](https://www.cockroachlabs.com/) | [0 Open Positions](https://www.cockroachlabs.com/careers/open-positions/) | ~400 |
 | <img src="https://cdn.iconscout.com/icon/free/png-128/shopware-3521706-2945150.png" alt="Shopware" width="32px"/> | [Shopware](https://www.shopware.com/) | [17 Open Positions](https://www.shopware.com/en/jobs/) | ~350 |
 | <img src="https://www.svgrepo.com/show/327408/logo-vercel.svg" alt="Vercel" width="32px"/> | [Vercel](https://vercel.com/home) | [6 Open Positions](https://vercel.com/careers?department=Engineering) | ~300 |
 | <img src="https://cdn.worldvectorlogo.com/logos/apollo-graphql-compact.svg" alt="Apollo" width="32px"/> | [Apollo](https://www.apollographql.com/) | [11 Open Positions](https://www.apollographql.com/careers/) | ~200 |
@@ -69,8 +67,6 @@ We count positions in Engineering / IT that are located in US / Europe (or remot
 | <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch" width="32px"/> | [Meilisearch](https://www.meilisearch.com/) | [2 Open Positions](https://jobs.lever.co/meili) | ~25 |
 | <img src="https://app.airfocus.com/api/integration-providers/trello/powerup/assets/icon.svg" alt="Airfocus" width="32px"/> | [Airfocus](https://airfocus.com/) | [1 Open Positions](https://airfocus.jobs.personio.de/) | ~50 |
 | <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/bvh2xc3wlmzcvihzonmq" alt="Appflowy" width="32px"/> | [Appflowy](https://www.appflowy.io/) | [1 Open Positions](https://www.appflowy.io/careers) | ~10 |
-| <img src="https://kfwiki.arcadewelten.eu/images/d/d9/Discord_icon_130958.png" alt="Discord" width="32px"/> | [Discord](https://discord.com/) | [0 Open Positions](https://discord.com/jobs?team=engineering) | ~1200 |
-| <img src="https://upload.wikimedia.org/wikipedia/en/3/31/Cockroach_Labs_Logo.png" alt="Cockroach Labs" width="32px"/> | [Cockroach Labs](https://www.cockroachlabs.com/) | [0 Open Positions](https://www.cockroachlabs.com/careers/open-positions/) | ~400 |
   
 </details>
 
